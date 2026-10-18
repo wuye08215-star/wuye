@@ -1,0 +1,114 @@
+{
+  "rule": "Training 5-fold R2 only; prefer 6 nonredundant fields on exact ties; require converged MLP refit and all five folds. No test-based reselection.",
+  "selection": [
+    {
+      "family": "RF",
+      "path": "/workspace/li_rf_fresh/RF_deduplicated.joblib",
+      "CV_R2": 0.4366475042411091,
+      "CV_std": 0.042504704631804925,
+      "params": {
+        "min_samples_leaf": 1,
+        "max_samples": null,
+        "max_features": 0.3,
+        "max_depth": 8,
+        "ccp_alpha": 0.001
+      },
+      "columns": [
+        0,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "family": "SVR",
+      "path": "/workspace/li_four_models/SVR_dedup.joblib",
+      "CV_R2": 0.4297659436568163,
+      "CV_std": 0.029631022531051883,
+      "params": {
+        "svr__C": 7.873647301696307,
+        "svr__epsilon": 0.05,
+        "svr__gamma": 1.4490330125116613
+      },
+      "columns": [
+        0,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "family": "LightGBM",
+      "path": "/workspace/li_four_models/LightGBM_dedup.joblib",
+      "CV_R2": 0.40969318597973736,
+      "CV_std": 0.039963877844857165,
+      "params": {
+        "subsample": 1.0,
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.0,
+        "num_leaves": 7,
+        "n_estimators": 500,
+        "min_split_gain": 0.0,
+        "min_child_samples": 5,
+        "max_depth": -1,
+        "learning_rate": 0.01,
+        "colsample_bytree": 1.0
+      },
+      "columns": [
+        0,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "family": "MLP",
+      "path": "/workspace/li_four_models/MLP_dedup_converged.joblib",
+      "CV_R2": 0.3677257644596394,
+      "CV_std": 0.06810517902610055,
+      "params": {
+        "mlp__activation": "relu",
+        "mlp__alpha": 1.2970554218079453,
+        "mlp__batch_size": "auto",
+        "mlp__beta_1": 0.9,
+        "mlp__beta_2": 0.999,
+        "mlp__early_stopping": false,
+        "mlp__epsilon": 1e-08,
+        "mlp__hidden_layer_sizes": [
+          16,
+          8
+        ],
+        "mlp__learning_rate": "constant",
+        "mlp__learning_rate_init": 0.001,
+        "mlp__loss": "squared_error",
+        "mlp__max_fun": 100000,
+        "mlp__max_iter": 5000,
+        "mlp__momentum": 0.9,
+        "mlp__n_iter_no_change": 10,
+        "mlp__nesterovs_momentum": true,
+        "mlp__power_t": 0.5,
+        "mlp__random_state": 42,
+        "mlp__shuffle": true,
+        "mlp__solver": "lbfgs",
+        "mlp__tol": 0.0001,
+        "mlp__validation_fraction": 0.1,
+        "mlp__verbose": false,
+        "mlp__warm_start": false
+      },
+      "columns": [
+        0,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    }
+  ]
+}

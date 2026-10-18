@@ -1,0 +1,20 @@
+{
+  "task": "Continuous Li concentration regression and predictive factor importance; original code as baseline.",
+  "input_n": 1365,
+  "after_original_Li_le_2000": 1363,
+  "training_n": 1090,
+  "test_n": 273,
+  "original_features": 23,
+  "equivalent_groups": 6,
+  "target": "ln(1+Li)",
+  "split_seed": 42,
+  "CV": "5-fold KFold, shuffle=True, random_state=20261018",
+  "parameter_selection": "training CV only; MLP convergence required; all fixed-test gains and losses retained",
+  "random_search_candidates": 588,
+  "additional_mlp_convergence_checks": 2,
+  "final_prediction": "max(raw_prediction,0), fixed physical lower limit; threshold not learned",
+  "final_memory_layout": "np.ascontiguousarray after column selection",
+  "importance": "20 shared permutations, seed42; original 18-col block jointly shuffled; modified shared group retained as one column. Final importance scorer uses the same physical lower limit.",
+  "validation": "All four delivered scripts executed; predictions, original Excel row IDs, metrics and permutation importance matched frozen experiment outputs. Report rendered to 15-page PDF and layout checked.",
+  "limitations": "Internal development validation; no external independent validation; importance is not causal; MLP gain dominated by one invalid negative prediction."
+}

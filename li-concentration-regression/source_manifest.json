@@ -1,0 +1,80 @@
+[
+  {
+    "input": "QSH.xlsx",
+    "filename": "QSH.xlsx",
+    "bytes": 215009,
+    "sha256": "0c9430d5148ddf187b5508b44c2adb4af82ad6e8ffdd4c814578d9647d8f40b5"
+  },
+  {
+    "input": "RF_original.py",
+    "filename": "Li浓度模拟-RF法.py",
+    "bytes": 5711,
+    "sha256": "c354b16be0a70023a6df55bbf67d4edc93925b47dca49819403dded86921d82d"
+  },
+  {
+    "input": "RF_uploaded_metrics",
+    "filename": "RF模型评价结果.xlsx",
+    "bytes": 4939,
+    "sha256": "95f37c47d026d38d269a6fb5932a735353e84f227751a867bf4a472e9d31a400"
+  },
+  {
+    "input": "RF_uploaded_importance",
+    "filename": "RF变量重要性.xlsx",
+    "bytes": 5446,
+    "sha256": "1724f16eb0e2f547bc479a3a3ad9dbecca25d1bf4ae426b0d6586259cc5988c2"
+  },
+  {
+    "input": "svr_code",
+    "filename": "Li浓度模拟-SVR.py",
+    "bytes": 5239,
+    "sha256": "1321ea91fafa19dd596dc8caa89e14edfee307592f10797d2dddd0b8410e23af"
+  },
+  {
+    "input": "lgbm_code",
+    "filename": "Li浓度模拟-LightGBM法.py",
+    "bytes": 5549,
+    "sha256": "5296e9d9beab5f92c0632fe5119935ba053751017d17c12e51767c7a506a5a06"
+  },
+  {
+    "input": "mlp_code",
+    "filename": "Li浓度模拟-神经网络法.py",
+    "bytes": 5336,
+    "sha256": "76e7c0f6ec7cbcac12d2ea6d9be66a5dca57badbb45e94c388695dda2ba0fe24"
+  },
+  {
+    "input": "svr_metrics",
+    "filename": "SVR模型评价结果.xlsx",
+    "bytes": 4936,
+    "sha256": "cd8301beca38c24d86f6f075e76e8fe202a42b6d04060c3189f0d9ce825b2b30"
+  },
+  {
+    "input": "lgbm_metrics",
+    "filename": "LightGBM模型评价结果.xlsx",
+    "bytes": 4938,
+    "sha256": "aa35d19fae26e78ec0e0e9efa01dcdb6ca06049b6cdfd216c3acf16f486a5e5d"
+  },
+  {
+    "input": "mlp_metrics",
+    "filename": "MLP模型评价结果.xlsx",
+    "bytes": 4934,
+    "sha256": "090e67f86cb73bb60dfffc2228154b83b1e0d031b05f4b91898490472564b7cd"
+  },
+  {
+    "input": "svr_importance",
+    "filename": "SVR变量重要性.xlsx",
+    "bytes": 5271,
+    "sha256": "6e3620368585812900a813341eda58cfaa389db804f1bf81c1b834a786ef8866"
+  },
+  {
+    "input": "lgbm_importance",
+    "filename": "LightGBM变量重要性.xlsx",
+    "bytes": 5183,
+    "sha256": "24fd67e790674b206db54d9308bbe8bca0eec9583c4fadb7d20d57addc44ef50"
+  },
+  {
+    "input": "mlp_importance",
+    "filename": "MLP变量重要性.xlsx",
+    "bytes": 5430,
+    "sha256": "d49d38d176284d4958f843e0eeffe422034fad17e700549ad5833c3b5975d1f4"
+  }
+]

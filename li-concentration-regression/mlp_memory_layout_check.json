@@ -1,0 +1,13 @@
+{
+  "diagnosis": "Identical input values with C/F array storage changed the nonconvex L-BFGS numerical path. C-contiguous arrays were fixed for final code. No test-score-based choice of layout.",
+  "C": {
+    "iterations": 1293,
+    "unbounded_test_R2": 0.37333994062910136,
+    "min_prediction_ln1p": -4.44154359735449
+  },
+  "F_diagnostic_not_selected": {
+    "iterations": 711,
+    "unbounded_test_R2": 0.4925560331117339,
+    "min_prediction_ln1p": 0.6931449461568112
+  }
+}

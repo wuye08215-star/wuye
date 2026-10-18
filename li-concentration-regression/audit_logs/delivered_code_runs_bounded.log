@@ -1,0 +1,67 @@
+START_VALIDATING RF
+输入变量数量： 23
+['CECS', 'CECT', 'SpH', 'SOC', 'SCF', 'SSiF', 'SSaF', 'SGC', 'TCF', 'TSiF', 'TSaF', 'TGC', 'OAR', 'SNRC', 'SNA', 'TpH', 'TOC', 'ST', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+因缺失值/非数值删除样本： 0
+删除Li>2000极端样本： 2
+合并完全线性重复字段后输入数量： 6 ['CECS', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+
+Random Forest模型结果
+R2 = 0.5403311833743487
+RMSE = 0.7400519724881356
+MAE = 0.5738227257929337
+NSE = 0.5403311833743487
+
+RF变量重要性：
+          Feature  ...                                  Equivalent_fields
+1             AET  ...                                                AET
+5            BIO7  ...                                               BIO7
+2              AI  ...                                                 AI
+4             PET  ...                                                PET
+3  Alpha(AET/PET)  ...                                     Alpha(AET/PET)
+0            CECS  ...  CECS, CECT, SpH, SOC, SCF, SSiF, SSaF, SGC, TC...
+
+[6 rows x 4 columns]
+Random Forest模型运行完成，结果目录： /workspace/li_four_models/delivery/results/RF
+END_VALIDATING RF
+START_VALIDATING SVR
+输入变量数量： 23
+['CECS', 'CECT', 'SpH', 'SOC', 'SCF', 'SSiF', 'SSaF', 'SGC', 'TCF', 'TSiF', 'TSaF', 'TGC', 'OAR', 'SNRC', 'SNA', 'TpH', 'TOC', 'ST', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+因缺失值/非数值删除样本： 0
+删除Li>2000极端样本： 2
+合并完全线性重复字段后输入数量： 6 ['CECS', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+
+SVR模型结果
+R2 = 0.5135329192625796
+RMSE = 0.7613185776746423
+MAE = 0.5773821114222611
+NSE = 0.5135329192625796
+结果目录： /workspace/li_four_models/delivery/results/SVR
+END_VALIDATING SVR
+START_VALIDATING LightGBM
+输入变量数量： 23
+['CECS', 'CECT', 'SpH', 'SOC', 'SCF', 'SSiF', 'SSaF', 'SGC', 'TCF', 'TSiF', 'TSaF', 'TGC', 'OAR', 'SNRC', 'SNA', 'TpH', 'TOC', 'ST', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+因缺失值/非数值删除样本： 0
+删除Li>2000极端样本： 2
+合并完全线性重复字段后输入数量： 6 ['CECS', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+
+LightGBM模型结果
+R2 = 0.48514896363011817
+RMSE = 0.7832140953552439
+MAE = 0.6046064660083684
+NSE = 0.48514896363011817
+结果目录： /workspace/li_four_models/delivery/results/LightGBM
+END_VALIDATING LightGBM
+START_VALIDATING MLP
+输入变量数量： 23
+['CECS', 'CECT', 'SpH', 'SOC', 'SCF', 'SSiF', 'SSaF', 'SGC', 'TCF', 'TSiF', 'TSaF', 'TGC', 'OAR', 'SNRC', 'SNA', 'TpH', 'TOC', 'ST', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+因缺失值/非数值删除样本： 0
+删除Li>2000极端样本： 2
+合并完全线性重复字段后输入数量： 6 ['CECS', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+
+MLP模型结果
+R2 = 0.500689768661358
+RMSE = 0.7713028422853098
+MAE = 0.5980684394558745
+NSE = 0.500689768661358
+结果目录： /workspace/li_four_models/delivery/results/MLP
+END_VALIDATING MLP

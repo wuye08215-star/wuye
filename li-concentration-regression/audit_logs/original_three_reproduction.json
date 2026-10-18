@@ -1,0 +1,107 @@
+[
+  {
+    "model": "SVR",
+    "uploaded_R2": 0.4679788971600347,
+    "uploaded_RMSE": 0.7961669192681924,
+    "uploaded_MAE": 0.5786761338825668,
+    "training_CV_R2": 0.3129898877573751,
+    "training_CV_std": 0.1233338479496153,
+    "training_CV_train_R2": 0.5332954053298703,
+    "test": {
+      "R2": 0.4679788971600477,
+      "RMSE": 0.7961669192681827,
+      "MAE": 0.5786761338825605
+    },
+    "train": {
+      "R2": 0.528291512478887,
+      "RMSE": 0.7963632731091758,
+      "MAE": 0.5455174050273139
+    },
+    "params": {
+      "memory": "None",
+      "steps": "[('scaler', StandardScaler()), ('svr', SVR(C=100, epsilon=0.05, gamma=0.1))]",
+      "transform_input": "None",
+      "verbose": "False"
+    },
+    "warnings": [],
+    "cleaning_verified_identical": true,
+    "model_expression": "Pipeline([('scaler', StandardScaler()), ('svr', SVR(kernel='rbf', C=100, gamma=0.1, epsilon=0.05))])",
+    "source_sha256": "0fc4f957654c277cb1a500c027fe819614191580b00706e841b910396263a87f"
+  },
+  {
+    "model": "LightGBM",
+    "uploaded_R2": 0.5396247437343611,
+    "uploaded_RMSE": 0.7406204266859315,
+    "uploaded_MAE": 0.5791557222893436,
+    "training_CV_R2": 0.3990157895745945,
+    "training_CV_std": 0.05836092783473054,
+    "training_CV_train_R2": 0.6602565634067183,
+    "test": {
+      "R2": 0.5396247437343611,
+      "RMSE": 0.7406204266859315,
+      "MAE": 0.5791557222893436
+    },
+    "train": {
+      "R2": 0.6431670117197161,
+      "RMSE": 0.6926388957135475,
+      "MAE": 0.5086112476346368
+    },
+    "params": {
+      "boosting_type": "gbdt",
+      "class_weight": "None",
+      "colsample_bytree": "0.8",
+      "importance_type": "split",
+      "learning_rate": "0.03",
+      "max_depth": "5",
+      "min_child_samples": "20",
+      "min_child_weight": "0.001",
+      "min_split_gain": "0.0",
+      "n_estimators": "500",
+      "n_jobs": "1",
+      "num_leaves": "20",
+      "objective": "None",
+      "random_state": "42",
+      "reg_alpha": "0.0",
+      "reg_lambda": "0.0",
+      "subsample": "0.8",
+      "subsample_for_bin": "200000",
+      "subsample_freq": "0",
+      "verbosity": "-1"
+    },
+    "warnings": [],
+    "cleaning_verified_identical": true,
+    "model_expression": "LGBMRegressor(n_estimators=500, learning_rate=0.03, max_depth=5, num_leaves=20, subsample=0.8, colsample_bytree=0.8, random_state=42, verbosity=-1)",
+    "source_sha256": "1aed890dbf428366ba3cd6d305a00467f5060ef893f734a8d19d9fd1cf20ef25"
+  },
+  {
+    "model": "MLP",
+    "uploaded_R2": 0.3562014232054846,
+    "uploaded_RMSE": 0.875819691189842,
+    "uploaded_MAE": 0.6720771620791969,
+    "training_CV_R2": 0.29010469209316636,
+    "training_CV_std": 0.10421062754183799,
+    "training_CV_train_R2": 0.4113486488583199,
+    "test": {
+      "R2": 0.35620142320548465,
+      "RMSE": 0.875819691189842,
+      "MAE": 0.6720771620791968
+    },
+    "train": {
+      "R2": 0.4233491926379266,
+      "RMSE": 0.8805029792950687,
+      "MAE": 0.6579964286325176
+    },
+    "params": {
+      "memory": "None",
+      "steps": "[('scaler', StandardScaler()), ('mlp', MLPRegressor(hidden_layer_sizes=(64, 32), max_iter=1000, random_state=42))]",
+      "transform_input": "None",
+      "verbose": "False"
+    },
+    "warnings": [],
+    "cleaning_verified_identical": true,
+    "model_expression": "Pipeline([('scaler', StandardScaler()), ('mlp', MLPRegressor(hidden_layer_sizes=(64, 32), activation='relu', solver='adam', learning_rate_init=0.001, max_iter=1000, random_state=42))])",
+    "source_sha256": "56a9c0e60b2accd493e44f899b9afdb0cf5fa3708eb22533ee46b9d0d93420c4",
+    "iterations": 254,
+    "final_loss": 0.3922336804085645
+  }
+]

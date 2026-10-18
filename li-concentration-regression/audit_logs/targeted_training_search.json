@@ -1,0 +1,137 @@
+[
+  {
+    "model": "SVR_full23",
+    "CV_R2": 0.4028313338594276,
+    "CV_std": 0.04356161820205273,
+    "CV_train_R2": 0.6250268114991057,
+    "params": {
+      "svr__C": 7.873647301696307,
+      "svr__epsilon": 0.05,
+      "svr__gamma": 1.4490330125116613
+    },
+    "columns": null,
+    "elapsed_seconds": 2.67,
+    "parent_process_warnings": []
+  },
+  {
+    "model": "LightGBM_full23",
+    "CV_R2": 0.40969318597973736,
+    "CV_std": 0.039963877844857165,
+    "CV_train_R2": 0.5667263439154876,
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 0.1,
+      "reg_alpha": 0.0,
+      "num_leaves": 7,
+      "n_estimators": 500,
+      "min_split_gain": 0.0,
+      "min_child_samples": 5,
+      "max_depth": -1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    },
+    "columns": null,
+    "elapsed_seconds": 3.48,
+    "parent_process_warnings": []
+  },
+  {
+    "model": "MLP_full23",
+    "CV_R2": 0.3183682181815816,
+    "CV_std": 0.08767139246803568,
+    "CV_train_R2": 0.5929835187529316,
+    "params": {
+      "mlp__activation": "tanh",
+      "mlp__alpha": 1.1232694335232727,
+      "mlp__early_stopping": false,
+      "mlp__hidden_layer_sizes": [
+        16,
+        8
+      ],
+      "mlp__max_iter": 1000,
+      "mlp__solver": "lbfgs"
+    },
+    "columns": null,
+    "elapsed_seconds": 5.1,
+    "parent_process_warnings": [
+      "lbfgs failed to converge after 1000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=1000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+    ]
+  },
+  {
+    "model": "SVR_dedup",
+    "CV_R2": 0.4297659436568163,
+    "CV_std": 0.029631022531051883,
+    "CV_train_R2": 0.6041464507161514,
+    "params": {
+      "svr__C": 7.873647301696307,
+      "svr__epsilon": 0.05,
+      "svr__gamma": 1.4490330125116613
+    },
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "elapsed_seconds": 1.86,
+    "parent_process_warnings": []
+  },
+  {
+    "model": "LightGBM_dedup",
+    "CV_R2": 0.40969318597973736,
+    "CV_std": 0.039963877844857165,
+    "CV_train_R2": 0.5667263439154876,
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 0.1,
+      "reg_alpha": 0.0,
+      "num_leaves": 7,
+      "n_estimators": 500,
+      "min_split_gain": 0.0,
+      "min_child_samples": 5,
+      "max_depth": -1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    },
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "elapsed_seconds": 2.55,
+    "parent_process_warnings": []
+  },
+  {
+    "model": "MLP_dedup",
+    "CV_R2": 0.3740249124937411,
+    "CV_std": 0.06547799848110294,
+    "CV_train_R2": 0.5633505490373609,
+    "params": {
+      "mlp__activation": "relu",
+      "mlp__alpha": 1.2970554218079453,
+      "mlp__early_stopping": false,
+      "mlp__hidden_layer_sizes": [
+        16,
+        8
+      ],
+      "mlp__max_iter": 1000,
+      "mlp__solver": "lbfgs"
+    },
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "elapsed_seconds": 5.41,
+    "parent_process_warnings": [
+      "lbfgs failed to converge after 1000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=1000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+    ]
+  }
+]

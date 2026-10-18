@@ -1,0 +1,3 @@
+model,version,excel_row,observed_Li,observed_ln1p,raw_prediction_ln1p,bounded_prediction_ln1p
+SVR,original,1152,10.5,2.4423470353692043,-1.520160039499181,0.0
+MLP,modified,1152,10.5,2.4423470353692043,-4.44154359735449,0.0
