@@ -1,0 +1,35 @@
+{
+  "input_rows": 1365,
+  "input_sha256": "0c9430d5148ddf187b5508b44c2adb4af82ad6e8ffdd4c814578d9647d8f40b5",
+  "features": [
+    "AET",
+    "AI",
+    "Alpha(AET/PET)",
+    "PET",
+    "BIO7"
+  ],
+  "Li_upper_limit": null,
+  "warning": "18个土壤字段待核实；相关性与置换重要性不代表因果。",
+  "fixed_multiples_of_CECS": {
+    "CECS": 1.0,
+    "CECT": 1.0,
+    "SpH": 1.0,
+    "SOC": 1.0,
+    "SCF": 1.0,
+    "SSiF": 1.0,
+    "SSaF": 1.0,
+    "SGC": 1.0,
+    "TCF": 1.0,
+    "TSiF": 1.0,
+    "TSaF": 1.0,
+    "TGC": 1.0,
+    "OAR": 2.0,
+    "SNRC": 2.0,
+    "SNA": 3.0,
+    "TpH": 1.0,
+    "TOC": 1.0,
+    "ST": 1.0
+  },
+  "used_rows": 1365,
+  "zero_Li_rows": 4
+}
