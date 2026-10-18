@@ -22,3 +22,5 @@
 - [3页变量筛选报告](li-concentration-regression/feature_selection/Feature_selection_report.docx)
 - [完整变量筛选结果Excel](li-concentration-regression/feature_selection/feature_selection_results.xlsx)
 - [可直接运行的四列RF候选代码](li-concentration-regression/code/RF_selected_subset.py)
+
+- [模型改进简表Excel（1个工作表，打印1页）](li-concentration-regression/Li_improvement_brief.xlsx)：四种模型前后对比、RF主要改动与必要说明。

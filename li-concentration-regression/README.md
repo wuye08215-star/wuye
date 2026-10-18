@@ -87,3 +87,5 @@ python code/RF_training_tail_sensitivity.py QSH.xlsx --output results/RF_tail_se
 ```bash
 python code/RF_selected_subset.py QSH.xlsx --output results/RF_selected_subset
 ```
+
+- [模型改进简表Excel（1个工作表，打印1页）](Li_improvement_brief.xlsx)：四种模型前后对比、RF主要改动与必要说明。
