@@ -1,0 +1,11 @@
+{
+  "new_family_configurations": 128,
+  "fold_scores": 640,
+  "ensemble_weights": 11,
+  "selection": "Training mean CV only across parameter candidates and 4/6 feature sets. All new selected inputs four. GP/RF weight frozen before fixed test.",
+  "data": "Original QSH cleaning, Li<=2000, ln(1+Li), split42;1090 training/273 test; no additional sample deletion.",
+  "code_verification": "All four CLI modes executed on original QSH; same test Excel rows; predictions match frozen runs within1e-10. XGBoost float32 exported as float64 to retain exact values in CSV.",
+  "package_verification": "Dedicated code ZIP extracted to another directory; GP mode executed with included helper and reproduced R2=0.5439881903134821.",
+  "layout": "One-sheet one-page new-method Excel; main report25 pages; new pages24-25 rendered and reviewed.",
+  "runtime": "Pinned CPU XGBoost3.4.1 and sklearn1.8.0 imports and real fits verified. Reusable install_script saved as environment draft; no environment publication performed."
+}

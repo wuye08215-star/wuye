@@ -1,0 +1,3 @@
+Model      R2     RMSE      MAE     NSE  N_train  N_test  N_features  N_negative_raw
+rf_gp 0.55062 0.731723 0.570285 0.55062     1090     273           4               0
+结果目录： /workspace/li_four_models/delivery/other_methods/results/rf_gp

@@ -1,0 +1,3 @@
+Model       R2     RMSE      MAE      NSE  N_train  N_test  N_features  N_negative_raw
+  gpr 0.543988 0.737102 0.576953 0.543988     1090     273           4               0
+结果目录： /workspace/li_other_methods/package_check/results

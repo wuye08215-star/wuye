@@ -1,0 +1,41 @@
+{
+  "families": [
+    "XGBoost",
+    "GaussianProcess",
+    "SplineRidge"
+  ],
+  "candidate_count": 128,
+  "training_n": 1090,
+  "test_n": 273,
+  "feature_sets": {
+    "four": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "six": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "target": "ln(1+Li)",
+  "original_filter": "Li <= 2000",
+  "CV": "KFold(5,shuffle=True,random_state=20261018)",
+  "selection": "Highest mean training CV R2 within each family across 4/6 feature sets. Freeze all three before fixed test evaluation.",
+  "physical_bound": "max(prediction_ln1p,0), same for CV/test",
+  "additional_sample_deletion": false,
+  "GP": "Training-only StandardScaler; normalize_y=True; RBF or Matern1.5 plus white noise. Fixed hyperparameters searched by CV, no kernel optimizer.",
+  "SplineRidge": "Additive B-spline bases plus Ridge. Knots, scaling and fit within each fold. No explicit interactions; GAM-like additive regression, not a full GAM implementation.",
+  "XGBoost": "Official xgboost-cpu package 3.4.1, squared-error objective, CPU histogram trees.",
+  "caution": "Four-feature choice was already selected on the training data in previous work; this CV is conditional development evidence. Fixed test has been viewed previously; it is not untouched external validation.",
+  "sources": [
+    "https://github.com/dmlc/xgboost",
+    "https://github.com/scikit-learn/scikit-learn/tree/main/sklearn/gaussian_process",
+    "https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/preprocessing/_polynomial.py"
+  ]
+}

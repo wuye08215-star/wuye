@@ -1,0 +1,2418 @@
+[
+  {
+    "candidate": "XGBoost_four_00",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_01",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 300,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_02",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 600,
+      "min_child_weight": 3,
+      "max_depth": 1,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_03",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_04",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 50.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 150,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_05",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 100.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 300,
+      "min_child_weight": 10,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_06",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_07",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 600,
+      "min_child_weight": 30,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_08",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.06,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_09",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 150,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_10",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_11",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 150,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_12",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 50.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_13",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 600,
+      "min_child_weight": 3,
+      "max_depth": 1,
+      "learning_rate": 0.06,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_14",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 100.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 2,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_15",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_16",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 300,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_17",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_18",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_19",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_20",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 10,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_21",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 3,
+      "max_depth": 1,
+      "learning_rate": 0.1,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_four_22",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 600,
+      "min_child_weight": 10,
+      "max_depth": 1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_four_23",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 10.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_00",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_01",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 300,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_02",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 600,
+      "min_child_weight": 3,
+      "max_depth": 1,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_03",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_04",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 50.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 150,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_05",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 100.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 300,
+      "min_child_weight": 10,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_06",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_07",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 100.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 600,
+      "min_child_weight": 30,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_08",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.06,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_09",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 150,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_10",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_11",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 150,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.06,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_12",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 50.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_13",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 600,
+      "min_child_weight": 3,
+      "max_depth": 1,
+      "learning_rate": 0.06,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_14",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 100.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 2,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_15",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_16",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 300,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_17",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_18",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_19",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_20",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 10.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 10,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_21",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 50.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 3,
+      "max_depth": 1,
+      "learning_rate": 0.1,
+      "colsample_bytree": 1.0
+    }
+  },
+  {
+    "candidate": "XGBoost_six_22",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 600,
+      "min_child_weight": 10,
+      "max_depth": 1,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "XGBoost_six_23",
+    "family": "XGBoost",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 10.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 1000,
+      "min_child_weight": 30,
+      "max_depth": 4,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_00",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 0.3,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_01",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 0.3,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_02",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 1.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_03",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 1.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_04",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 3.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_05",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 3.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_06",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 10.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_07",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 10.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_08",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 0.3,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_09",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 0.3,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_10",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 1.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_11",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 1.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_12",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 3.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_13",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 3.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_14",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 10.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_four_15",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 10.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_00",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 0.3,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_01",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 0.3,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_02",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 1.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_03",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 1.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_04",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 3.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_05",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 3.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_06",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 10.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_07",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "RBF",
+      "length_scale": 10.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_08",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 0.3,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_09",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 0.3,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_10",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 1.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_11",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 1.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_12",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 3.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_13",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 3.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_14",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 10.0,
+      "noise": 0.1
+    }
+  },
+  {
+    "candidate": "GaussianProcess_six_15",
+    "family": "GaussianProcess",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 10.0,
+      "noise": 0.5
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_00",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_01",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 3,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_02",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 20,
+      "degree": 2,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_03",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_04",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 3,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_05",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 2,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_06",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 1.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_07",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_08",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 20,
+      "degree": 3,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_09",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_10",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 2,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_11",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_12",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 20,
+      "degree": 2,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_13",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_14",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_15",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_16",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 5,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_17",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 2,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_18",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 3,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_19",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_20",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_21",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 2,
+      "alpha": 1.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_22",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 3,
+      "alpha": 1.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_four_23",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 5,
+      "degree": 2,
+      "alpha": 1.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_00",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_01",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 3,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_02",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 20,
+      "degree": 2,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_03",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_04",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 3,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_05",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 2,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_06",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 1.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_07",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_08",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 20,
+      "degree": 3,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_09",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_10",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 2,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_11",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_12",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 20,
+      "degree": 2,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_13",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_14",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_15",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_16",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 5,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_17",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 2,
+      "alpha": 10.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_18",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 3,
+      "alpha": 0.1
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_19",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 8,
+      "degree": 3,
+      "alpha": 100.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_20",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 2,
+      "alpha": 0.01
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_21",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 12,
+      "degree": 2,
+      "alpha": 1.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_22",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 3,
+      "degree": 3,
+      "alpha": 1.0
+    }
+  },
+  {
+    "candidate": "SplineRidge_six_23",
+    "family": "SplineRidge",
+    "feature_set": "six",
+    "columns": [
+      0,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "params": {
+      "n_knots": 5,
+      "degree": 2,
+      "alpha": 1.0
+    }
+  }
+]

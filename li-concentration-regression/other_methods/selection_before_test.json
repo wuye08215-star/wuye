@@ -1,0 +1,61 @@
+[
+  {
+    "candidate": "XGBoost_four_19",
+    "family": "XGBoost",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 1000,
+      "min_child_weight": 10,
+      "max_depth": 3,
+      "learning_rate": 0.01,
+      "colsample_bytree": 0.7
+    },
+    "CV_R2": 0.4217204450917026,
+    "CV_std": 0.056077740536995054
+  },
+  {
+    "candidate": "GaussianProcess_four_09",
+    "family": "GaussianProcess",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "kernel": "Matern15",
+      "length_scale": 0.3,
+      "noise": 0.5
+    },
+    "CV_R2": 0.45981163948991643,
+    "CV_std": 0.03629626462179752
+  },
+  {
+    "candidate": "SplineRidge_four_02",
+    "family": "SplineRidge",
+    "feature_set": "four",
+    "columns": [
+      18,
+      19,
+      20,
+      22
+    ],
+    "params": {
+      "n_knots": 20,
+      "degree": 2,
+      "alpha": 10.0
+    },
+    "CV_R2": 0.40535729776951107,
+    "CV_std": 0.06970928489742845
+  }
+]

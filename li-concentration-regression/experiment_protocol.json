@@ -15,7 +15,7 @@
   "final_prediction": "max(raw_prediction,0), fixed physical lower limit; threshold not learned",
   "final_memory_layout": "np.ascontiguousarray after column selection",
   "importance": "20 shared permutations, seed42; original 18-col block jointly shuffled; modified shared group retained as one column. Final importance scorer uses the same physical lower limit.",
-  "validation": "All four delivered scripts executed; predictions, original Excel row IDs, metrics and permutation importance matched frozen experiment outputs. Report rendered to 23-page PDF and layout checked.",
+  "validation": "All four delivered scripts executed; predictions, original Excel row IDs, metrics and permutation importance matched frozen experiment outputs. Report rendered to 25-page PDF and layout checked.",
   "limitations": "Internal development validation; no external independent validation; importance is not causal; MLP gain dominated by one invalid negative prediction.",
   "additional_round": {
     "portable_model_constructor_reproduction": "All 11 selected results match original saved-model run within 1e-12.",
@@ -40,5 +40,16 @@
     "R2": 0.5538115677138247,
     "positive_paired_CV_folds": 4,
     "report_layout": "23-page main report, 3-page standalone; all new pages rendered and reviewed."
+  },
+  "other_methods_round": {
+    "new_family_configurations": 128,
+    "fold_scores": 640,
+    "ensemble_weights": 11,
+    "selection": "Training mean CV only across parameter candidates and 4/6 feature sets. All new selected inputs four. GP/RF weight frozen before fixed test.",
+    "data": "Original QSH cleaning, Li<=2000, ln(1+Li), split42;1090 training/273 test; no additional sample deletion.",
+    "code_verification": "All four CLI modes executed on original QSH; same test Excel rows; predictions match frozen runs within1e-10. XGBoost float32 exported as float64 to retain exact values in CSV.",
+    "package_verification": "Dedicated code ZIP extracted to another directory; GP mode executed with included helper and reproduced R2=0.5439881903134821.",
+    "layout": "One-sheet one-page new-method Excel; main report25 pages; new pages24-25 rendered and reviewed.",
+    "runtime": "Pinned CPU XGBoost3.4.1 and sklearn1.8.0 imports and real fits verified. Reusable install_script saved as environment draft; no environment publication performed."
   }
 }

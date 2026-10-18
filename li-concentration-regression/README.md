@@ -4,15 +4,15 @@
 
 ## 下载
 
-- [组会Word报告（23页，含变量筛选与补充实验）](Li_group_meeting_report.docx)
+- [组会Word报告（25页，含新方法及各轮补充）](Li_group_meeting_report.docx)
 - [PDF阅读版](Li_group_meeting_report.pdf)
-- [结果总表Excel](group_meeting_results.xlsx)
+- [最初四方法结果总表Excel](group_meeting_results.xlsx)
 - [全部代码、报告和结果ZIP](full_package.zip)
 - [仅报告与研究结果ZIP](results_only.zip)
 
 在GitHub打开二进制文件后，可点击“Download raw file”保存到电脑。代码保持原始结构，修改位置见diffs/，各版本均已实跑。
 
-## 同一批273条测试样本的结果
+## 最初四方法修改结果（变量筛选前）
 
 | 模型 | 原始R² | 最终R² | ΔR² |
 |---|---:|---:|---:|
@@ -88,4 +88,19 @@ python code/RF_training_tail_sensitivity.py QSH.xlsx --output results/RF_tail_se
 python code/RF_selected_subset.py QSH.xlsx --output results/RF_selected_subset
 ```
 
-- [模型改进简表Excel（1个工作表，打印1页）](Li_improvement_brief.xlsx)：四种模型前后对比、RF主要改动与必要说明。
+## 追加：其他机器学习方法代码
+
+新增XGBoost、高斯过程回归、样条加性回归，并检查RF/GP组合；固定测试R²分别为0.4982、0.5440、0.4939、0.5506。本轮均未超过已有四因子RF的0.5538；GP和组合的训练CV更高，仍需独立验证，不据此认定谁在新样本上一定更好。
+
+- [新方法一页Excel简表](Other_methods_brief.xlsx)
+- [可直接运行的新方法代码ZIP（含清洗依赖与说明）](Other_methods_code.zip)
+- [完整新方法训练记录、预测及图片](other_methods/)
+
+在完整包根目录安装并运行：
+
+```bash
+python -m pip install -r requirements_other_methods.txt
+python code/Li_other_methods.py QSH.xlsx --method gpr
+```
+
+可将gpr换成xgboost、spline或rf_gp。依赖CPU版XGBoost，已在本云环境验证；Windows/Linux推荐Python3.12。新的安装说明已存入云环境install_script草稿，尚未发布环境快照。
