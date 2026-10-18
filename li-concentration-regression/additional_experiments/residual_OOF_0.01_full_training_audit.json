@@ -1,0 +1,23 @@
+{
+  "method": "residual_OOF",
+  "fraction": 0.01,
+  "absolute_residual_cutoff": 2.899966433110406,
+  "training_n": 1090,
+  "retained_n": 1079,
+  "removed_n": 11,
+  "changed_target_n": 0,
+  "removed_excel_rows": [
+    1296,
+    331,
+    326,
+    328,
+    28,
+    333,
+    64,
+    327,
+    271,
+    467,
+    37
+  ],
+  "changed_target_excel_rows": []
+}

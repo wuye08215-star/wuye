@@ -1,0 +1,16 @@
+{
+  "selected": [
+    "RF_trees_50",
+    "LightGBM_original_iterations_300",
+    "LightGBM_dedup_iterations_500",
+    "target_trim_0.01",
+    "target_winsor_0.02",
+    "isolation_X_0.01",
+    "residual_OOF_0.01",
+    "GB_18_huber",
+    "GB_19_squared_error",
+    "none_0",
+    "RF_trees_500"
+  ],
+  "elapsed_training_seconds": 42.0411958694458
+}

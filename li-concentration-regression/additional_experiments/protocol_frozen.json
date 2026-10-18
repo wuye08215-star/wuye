@@ -1,0 +1,316 @@
+{
+  "task": "Additional sensitivity tests, no claim of exhaustive search or R2 upper bound",
+  "training_n": 1090,
+  "test_n": 273,
+  "fold_seed": 20261018,
+  "folds": 5,
+  "target": "ln(1+Li)",
+  "iterations": [
+    50,
+    100,
+    300,
+    500,
+    1000,
+    2000
+  ],
+  "robust_configs": [
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 30,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 30,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 30,
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 30,
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 5,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 5,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 1,
+      "learning_rate": 0.05,
+      "alpha": 0.8,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 1,
+      "learning_rate": 0.05,
+      "alpha": 0.8,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 200,
+      "min_samples_leaf": 30,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 200,
+      "min_samples_leaf": 30,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 30,
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 30,
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 1,
+      "learning_rate": 0.05,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 1,
+      "learning_rate": 0.05,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "alpha": 0.8,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "alpha": 0.8,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.8,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.8,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 30,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 30,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 5,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.8,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 5,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.8,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 200,
+      "min_samples_leaf": 5,
+      "max_depth": 1,
+      "learning_rate": 0.1,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 200,
+      "min_samples_leaf": 5,
+      "max_depth": 1,
+      "learning_rate": 0.1,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 30,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.8,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 30,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.8,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 30,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.95,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 500,
+      "min_samples_leaf": 30,
+      "max_depth": 1,
+      "learning_rate": 0.02,
+      "alpha": 0.95,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 200,
+      "min_samples_leaf": 5,
+      "max_depth": 3,
+      "learning_rate": 0.1,
+      "alpha": 0.8,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 200,
+      "min_samples_leaf": 5,
+      "max_depth": 3,
+      "learning_rate": 0.1,
+      "alpha": 0.8,
+      "loss": "squared_error"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 5,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "huber"
+    },
+    {
+      "n_estimators": 1000,
+      "min_samples_leaf": 5,
+      "max_depth": 3,
+      "learning_rate": 0.02,
+      "alpha": 0.9,
+      "loss": "squared_error"
+    }
+  ],
+  "outlier_methods": [
+    "target_trim",
+    "target_winsor",
+    "isolation_X",
+    "residual_OOF"
+  ],
+  "fractions": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "filtering": "Fit each rule exclusively on that fold training subset. Never remove validation/test rows.",
+  "target_trim": "Remove observations outside central 99%, 98% or 95% training target quantiles. Actual number depends on ties.",
+  "target_winsor": "Clip training targets to same quantile bounds; do not change validation/test observed targets.",
+  "residual": "3-fold training-only cross-fitting; trim largest absolute log-target residuals by training quantile.",
+  "scoring": "R2 with max(prediction,0); same fixed physical lower limit for all candidates",
+  "selection": "Freeze best candidate of each iteration family, each outlier method, and each loss based ONLY on mean training CV R2. Evaluate all selected candidates once on unchanged test. Also retain RF500 and outlier-none controls.",
+  "baseline_model": {
+    "bootstrap": true,
+    "ccp_alpha": 0.001,
+    "criterion": "squared_error",
+    "max_depth": 8,
+    "max_features": 0.3,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 500,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "warning": "Fixed test has been inspected in prior development; it is internal validation, not new external validation.",
+  "github_sources": [
+    "https://github.com/scikit-learn/scikit-learn/blob/main/sklearn/ensemble/_iforest.py",
+    "https://github.com/scikit-learn/scikit-learn/blob/main/examples/ensemble/plot_gradient_boosting_regression.py"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "weights_RF": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "scoring": "mean of five training validation fold R2 scores; all predictions max(raw,0)",
+  "selection": "choose one RF weight before fixed test evaluation",
+  "models": {
+    "RF": "RandomForestRegressor(ccp_alpha=0.001, max_depth=8, max_features=0.3,\n                      n_estimators=500, n_jobs=1, random_state=42)",
+    "SVR": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('svr',\n                 SVR(C=7.873647301696307, epsilon=0.05,\n                     gamma=1.4490330125116613))])"
+  },
+  "CV_seed": 20261018
+}

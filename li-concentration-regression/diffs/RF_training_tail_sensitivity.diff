@@ -1,0 +1,17 @@
+--- RF_modified.py
++++ RF_training_tail_sensitivity.py
+@@ -1 +1 @@
+-"""RF原代码基础上的小改回归版；完整过程见组会报告。
++"""RF训练目标双尾剔除1%的敏感性试验；未证实被删样本有错，主分析保留RF_modified.py。
+@@ -188,0 +189,11 @@
++    # 敏感性分析：阈值仅由训练y计算，保留所有测试样本。
++    lower, upper = np.quantile(y_train, [0.005, 0.995])
++    retained = (y_train >= lower) & (y_train <= upper)
++    pd.DataFrame({
++        "Excel_row": rows_train[~retained],
++        "Observed_Li": np.expm1(y_train[~retained])
++    }).to_excel("RF训练尾部剔除行.xlsx", index=False)
++    X_train = X_train[retained]
++    y_train = y_train[retained]
++    rows_train = rows_train[retained]
++

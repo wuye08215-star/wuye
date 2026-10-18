@@ -1,0 +1,22 @@
+{
+  "method": "isolation_X",
+  "fraction": 0.01,
+  "training_n": 1090,
+  "retained_n": 1079,
+  "removed_n": 11,
+  "changed_target_n": 0,
+  "removed_excel_rows": [
+    331,
+    326,
+    328,
+    324,
+    329,
+    17,
+    327,
+    274,
+    271,
+    272,
+    15
+  ],
+  "changed_target_excel_rows": []
+}

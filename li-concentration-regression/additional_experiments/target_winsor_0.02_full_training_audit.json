@@ -1,0 +1,33 @@
+{
+  "method": "target_winsor",
+  "fraction": 0.02,
+  "lower_ln1p": 0.6931471805599453,
+  "upper_ln1p": 6.3818160174060985,
+  "training_n": 1090,
+  "retained_n": 1090,
+  "removed_n": 0,
+  "changed_target_n": 20,
+  "removed_excel_rows": [],
+  "changed_target_excel_rows": [
+    331,
+    328,
+    5,
+    8,
+    1288,
+    28,
+    241,
+    333,
+    237,
+    64,
+    1284,
+    327,
+    271,
+    266,
+    1286,
+    1287,
+    467,
+    3,
+    37,
+    1099
+  ]
+}

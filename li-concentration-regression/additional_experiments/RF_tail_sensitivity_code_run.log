@@ -1,0 +1,67 @@
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 23454 (\N{CJK UNIFIED IDEOGRAPH-5B9E}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 27979 (\N{CJK UNIFIED IDEOGRAPH-6D4B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 39044 (\N{CJK UNIFIED IDEOGRAPH-9884}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 25311 (\N{CJK UNIFIED IDEOGRAPH-62DF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 21512 (\N{CJK UNIFIED IDEOGRAPH-5408}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:79: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 39044 (\N{CJK UNIFIED IDEOGRAPH-9884}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 27979 (\N{CJK UNIFIED IDEOGRAPH-6D4B}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 25311 (\N{CJK UNIFIED IDEOGRAPH-62DF}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 21512 (\N{CJK UNIFIED IDEOGRAPH-5408}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+/workspace/li_four_models/delivery/code/RF_training_tail_sensitivity.py:80: UserWarning: Glyph 23454 (\N{CJK UNIFIED IDEOGRAPH-5B9E}) missing from font(s) DejaVu Sans.
+  plt.savefig( save_path, dpi=300, bbox_inches="tight")
+输入变量数量： 23
+['CECS', 'CECT', 'SpH', 'SOC', 'SCF', 'SSiF', 'SSaF', 'SGC', 'TCF', 'TSiF', 'TSaF', 'TGC', 'OAR', 'SNRC', 'SNA', 'TpH', 'TOC', 'ST', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+因缺失值/非数值删除样本： 0
+删除Li>2000极端样本： 2
+合并完全线性重复字段后输入数量： 6 ['CECS', 'AET', 'AI', 'Alpha(AET/PET)', 'PET', 'BIO7']
+
+Random Forest模型结果
+R2 = 0.5442021800996262
+RMSE = 0.7369292944047017
+MAE = 0.5704907858267082
+NSE = 0.5442021800996262
+
+RF变量重要性：
+          Feature  ...                                  Equivalent_fields
+5            BIO7  ...                                               BIO7
+1             AET  ...                                                AET
+2              AI  ...                                                 AI
+4             PET  ...                                                PET
+3  Alpha(AET/PET)  ...                                     Alpha(AET/PET)
+0            CECS  ...  CECS, CECT, SpH, SOC, SCF, SSiF, SSaF, SGC, TC...
+
+[6 rows x 4 columns]
+Random Forest模型运行完成，结果目录： /workspace/li_four_models/delivery/additional_experiments/RF_tail_sensitivity_results

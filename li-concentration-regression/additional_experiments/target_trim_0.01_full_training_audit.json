@@ -1,0 +1,23 @@
+{
+  "method": "target_trim",
+  "fraction": 0.01,
+  "lower_ln1p": 0.18232155679395465,
+  "upper_ln1p": 6.4869701719004995,
+  "training_n": 1090,
+  "retained_n": 1080,
+  "removed_n": 10,
+  "changed_target_n": 0,
+  "removed_excel_rows": [
+    331,
+    328,
+    1288,
+    333,
+    64,
+    1284,
+    327,
+    271,
+    1287,
+    3
+  ],
+  "changed_target_excel_rows": []
+}

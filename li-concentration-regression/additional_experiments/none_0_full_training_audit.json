@@ -1,0 +1,10 @@
+{
+  "method": "none",
+  "fraction": 0.0,
+  "training_n": 1090,
+  "retained_n": 1090,
+  "removed_n": 0,
+  "changed_target_n": 0,
+  "removed_excel_rows": [],
+  "changed_target_excel_rows": []
+}

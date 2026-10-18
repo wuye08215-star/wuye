@@ -4,7 +4,7 @@
 
 ## 下载
 
-- [组会Word报告（15页）](Li_group_meeting_report.docx)
+- [组会Word报告（20页，含本轮补充）](Li_group_meeting_report.docx)
 - [PDF阅读版](Li_group_meeting_report.pdf)
 - [结果总表Excel](group_meeting_results.xlsx)
 - [全部代码、报告和结果ZIP](full_package.zip)
@@ -53,3 +53,21 @@ LightGBM试验版保留为研究记录，当前测试效果不如原始版本，
 当前23列存在18个完全线性重复字段，只能识别共享信息，不能分别给出18项真实物理作用。气候因子之间也高度相关。置换分数是预测依赖程度，不是因果效应或可相加的贡献率；MLP置换分数偏大反映外推敏感，不应解释成真实影响倍数。
 
 同输入不同Li的实例、源文件哈希、固定行号预测、逐折分数和警告记录均保存在Excel及audit_logs/。不通过换测试集、删除高误差测试点或隐藏负面结果提高分数。
+
+## 追加：迭代与异常样本补充检验
+
+本轮63组（含对照）及11个RF/SVR权重，详见 [5页补充Word](additional_experiments/R2_additional_experiments.docx)、[补充PDF](additional_experiments/R2_additional_experiments.pdf)、[全部补充数值Excel](additional_experiments/additional_results.xlsx)。已追加到主组会报告。
+
+- 原RF实跑R²约0.5390，上一版修改RF约0.5403。
+- 本轮最高观测R²=0.5442，但依赖额外删除训练尾部10条；仅作敏感性分析，未确认这些记录有错。最小改动脚本为 `code/RF_training_tail_sensitivity.py`，实跑验证通过。
+- 不新增删样本的RF/SVR各50%平均R²=0.5432。
+- 更多迭代、IsolationForest、缩尾、Huber都未带来明显突破。测试集273条从未新增删减。
+- 目前不能认定已到上限，也不能宣称穷尽所有方法；小幅增益仍需独立数据确认。
+
+运行删尾部敏感性脚本：
+
+```bash
+python code/RF_training_tail_sensitivity.py QSH.xlsx --output results/RF_tail_sensitivity
+```
+
+这一脚本不替换主分析。删样本行号和全部测试预测记录在 `additional_experiments/RF_tail_sensitivity_results/`。

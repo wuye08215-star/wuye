@@ -1,0 +1,9 @@
+{
+  "portable_model_constructor_reproduction": "All 11 selected results match original saved-model run within 1e-12.",
+  "minimal_code_reproduction": "RF_training_tail_sensitivity.py executed on original QSH.xlsx. Same 273 Excel row IDs, predictions within 1e-10, training1080/test273, R2=0.5442021800996264.",
+  "leakage_check": "All 65 fold-treatment audit entries remove/change training-fold rows only. No validation or test observations removed.",
+  "report_check": "Combined Word rendered to 20-page PDF; standalone addendum rendered to 5-page PDF; all five additional page layouts reviewed.",
+  "candidate_scores": 315,
+  "extra_configurations_including_controls": 63,
+  "ensemble_weights": 11
+}
