@@ -1,0 +1,72 @@
+{
+  "workbooks": 10,
+  "independent_tables": 9,
+  "combined_sheets": 9,
+  "embedded_figure_displays": 56,
+  "existing_source_pngs_covered": 34,
+  "all_existing_source_pngs_embedded": true,
+  "candidate_and_control_records": 611,
+  "model_checks": [
+    {
+      "model": "RF",
+      "images": 17,
+      "prediction_rows": 273,
+      "records": 194,
+      "R2": 0.5538115677138247
+    },
+    {
+      "model": "SVR",
+      "images": 6,
+      "prediction_rows": 273,
+      "records": 108,
+      "R2": 0.5135329192625796
+    },
+    {
+      "model": "LightGBM",
+      "images": 8,
+      "prediction_rows": 273,
+      "records": 120,
+      "R2": 0.48514896363011817
+    },
+    {
+      "model": "MLP",
+      "images": 6,
+      "prediction_rows": 273,
+      "records": 50,
+      "R2": 0.500689768661358
+    },
+    {
+      "model": "XGBoost",
+      "images": 4,
+      "prediction_rows": 273,
+      "records": 48,
+      "R2": 0.4982010553501841
+    },
+    {
+      "model": "GaussianProcess",
+      "images": 4,
+      "prediction_rows": 273,
+      "records": 32,
+      "R2": 0.5439881903134821
+    },
+    {
+      "model": "SplineRidge",
+      "images": 4,
+      "prediction_rows": 273,
+      "records": 48,
+      "R2": 0.49393295680223626
+    },
+    {
+      "model": "RF_GP",
+      "images": 4,
+      "prediction_rows": 273,
+      "records": 11,
+      "R2": 0.5506203226572595
+    }
+  ],
+  "sample_integrity": "All 8 representative model tables retain the same 273 original Excel test row IDs.",
+  "baseline_integrity": "New four schemes have no invented original metrics; LightGBM original retention and degraded trial are distinct.",
+  "formula_integrity": "Cached comparison deltas and prediction residual formulas match numeric sources; no Excel error cells.",
+  "source_commit": "1846fda8518eff89d4d573404642176db395ea99",
+  "layout_review": "All 9 standalone overview sheets rendered to single-page PDFs. Comparison, RF and MLP reviewed at full size; all 9 reviewed in contact sheet. Image anchors have no overlap. Navigation and formula caches checked."
+}

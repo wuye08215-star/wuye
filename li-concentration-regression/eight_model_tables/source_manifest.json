@@ -1,0 +1,205 @@
+{
+  "source_commit": "1846fda8518eff89d4d573404642176db395ea99",
+  "source_sha256": {
+    "final_comparison.csv": "2ba00a4945939c4f932fca95e583a1a2c5e95a74728ca33f5133a8c67be16361",
+    "final_predictions.csv": "989a1fdb34a89ba143943523c4e69f7f1ce9db30c6bb9ce895026461fbab0746",
+    "code/RF_selected_subset.py": "d1c268c391467a90e038fc79176e30f5a031d054636ec04b671a6530938c459f",
+    "uploaded_original_results/RF模型评价结果.xlsx": "95f37c47d026d38d269a6fb5932a735353e84f227751a867bf4a472e9d31a400",
+    "uploaded_original_results/RF变量重要性.xlsx": "1724f16eb0e2f547bc479a3a3ad9dbecca25d1bf4ae426b0d6586259cc5988c2",
+    "all_training_search_records.csv": "297e090e4aa44e7a131661f6ecfc8d514ce4a9eedf0799a30b5783498f153d41",
+    "final_cv_folds.json": "13e50590b1c769e55dfdb88dfd904e90e1e41851612876cc49cf16fcf4012034",
+    "feature_selection/selected_test_results.csv": "e0f53f544dae2ee659d5b7f60e9984219327453964a973921ec7dad2d30131b2",
+    "feature_selection/all_fold_scores.csv": "791cd0ebb7b30d73efbd73e2899e31e23da59620c3d85dbcee4664f4d1b10c5a",
+    "additional_experiments/selected_test_results.csv": "901a553c91c065a0d579e31224474606ada3aea362688e85b5c0ac083befff86",
+    "feature_selection/RF_selected_subset_results/RF测试集预测.xlsx": "455c676f4dfbb045c628af6b83a8d71d878ea6c4b3387436190bc883326609ae",
+    "results/RF/RF决策树结构.png": "1ea339130dfddad438d736b71b9709fba708a50b3eae564ab7119b8c76c6d2c7",
+    "results/RF/RF变量重要性.png": "0f15a7c4212e2bd7cf0ca49afbdee0a9bd6b65868986c7734e56325fb37b4d79",
+    "results/RF/RF模型拟合散点图.png": "3ad2c1ac48bb58f9005a198ba01b8e43d170e89c65d80786726be5b347544a0b",
+    "figures/RF_before_after.png": "204545b1c6e8b7127cf8b9484e15453bca39220df76f7ff5b9c66cd361076eda",
+    "feature_selection/RF_selected_subset_results/RF决策树结构.png": "925a18c54de39d00235af2a505ab06c1c0012ad0ec19c2b68b506d33918ab6f1",
+    "feature_selection/RF_selected_subset_results/RF变量重要性.png": "c885302e6cb9e976548af5f394ec49730b405508d7f0354a2025c0ad36921f85",
+    "feature_selection/RF_selected_subset_results/RF模型拟合散点图.png": "bece441ffacb46b3e0781faef313c29eb2b8c578da9dcb5ac11c80705d3325ae",
+    "additional_experiments/RF_tail_sensitivity_results/RF决策树结构.png": "aa465a379fa9d58f6805299eaadd25490b579083aed2806114efe52507af61a9",
+    "additional_experiments/RF_tail_sensitivity_results/RF变量重要性.png": "6835d8cf9ddfaa863ff14932df6bef5dd941312c6cc0954ad8d6651e9ebd4673",
+    "additional_experiments/RF_tail_sensitivity_results/RF模型拟合散点图.png": "6c2889efdd12b27b78e4c3ec09e03c5fe0b85013c09e67a2847dfdcd4be705d7",
+    "feature_selection/feature_count_comparison.png": "30be0bc428a8f3157206a2daf0bea85e5f459cfc456ae848b325497ae75d3618",
+    "additional_experiments/outlier_sensitivity.png": "899e4e03198cea510b2fbf8aef02c784e9454c1abab85a2e2d8a896cc168a258",
+    "figures/RF_importance_stability.png": "e7a3e79c8aa9397be3a4f632e9e6126ef94b7d16f5146a36bae670a9dff62f66",
+    "additional_experiments/iteration_curves.png": "cea55ee59cb722b9cc96c4832e7ef8058d7fc45e81e6580c2805a7e9f3fe38e7",
+    "code/SVR_modified.py": "c7744ec1c27a080a4b5c641cbed58dea65bc7c8b042700be16471d4ceaa08cf0",
+    "uploaded_original_results/SVR模型评价结果.xlsx": "cd8301beca38c24d86f6f075e76e8fe202a42b6d04060c3189f0d9ce825b2b30",
+    "uploaded_original_results/SVR变量重要性.xlsx": "6e3620368585812900a813341eda58cfaa389db804f1bf81c1b834a786ef8866",
+    "results/SVR/SVR变量重要性.png": "24750c803976a251a01459a1776de6d543ab31bee06bcb1fd6aa67b0847c78fd",
+    "results/SVR/SVR模型拟合散点图.png": "8811dd1806573a0c2d65c53f3e584d8e10e7965f3e5b246638b9412b553727a0",
+    "figures/SVR_before_after.png": "d37312839c1e16d19608f40767662de7ed78234e7413d70521b380f8ec599e12",
+    "code/LightGBM_modified.py": "5bdcab06b6cf584db81ff233efe97212de39d83b0dd05226d742067b37a0d802",
+    "uploaded_original_results/LightGBM模型评价结果.xlsx": "aa35d19fae26e78ec0e0e9efa01dcdb6ca06049b6cdfd216c3acf16f486a5e5d",
+    "uploaded_original_results/LightGBM变量重要性.xlsx": "24fd67e790674b206db54d9308bbe8bca0eec9583c4fadb7d20d57addc44ef50",
+    "results/LightGBM/LightGBM变量重要性.png": "9d7f57c11a597486cac4720931115776873a50a5ece58376313956b3035d405c",
+    "results/LightGBM/LightGBM树结构.png": "8e251d2d9b7a61636f3f32659b2f4a31d2c1f028b5be1dff1e51b1694698fdf0",
+    "results/LightGBM/LightGBM模型拟合散点图.png": "a4716efee89d77bc48ea213af5b648ae9f162adc1571957e96b25a708cfd9df4",
+    "figures/LightGBM_before_after.png": "7368b0ca253d49ede4285dd61b7fca5fa3a619648f88082ab6d4129ebbeba74a",
+    "code/MLP_modified.py": "e0f658cae73f66b50ee33259ddc8e33cc6362a8fa015f0409a03e0a694e181d2",
+    "uploaded_original_results/MLP模型评价结果.xlsx": "090e67f86cb73bb60dfffc2228154b83b1e0d031b05f4b91898490472564b7cd",
+    "uploaded_original_results/MLP变量重要性.xlsx": "d49d38d176284d4958f843e0eeffe422034fad17e700549ad5833c3b5975d1f4",
+    "mlp_convergence_refinement.json": "f0ee515e8ee57c659ad41b8ba480fbd8b7a675731b76cae8b524cd350995cf61",
+    "negative_prediction_ablation.csv": "0e3f33141e7766fa8a447d2c86df7308cf348badd3793f095a42f72b2bc65189",
+    "mlp_memory_layout_check.json": "cede7c2055b89b57b124cf5a3121feeb5f9a6724db11859be0437a5139853af5",
+    "results/MLP/MLP变量重要性.png": "903c138b4f215c735db4138f2e593ac8eba408708ffcd8e86ae67ffc8ac80a67",
+    "results/MLP/MLP模型拟合散点图.png": "e1fd2b001b6d1d912735941cdaeb5bd451f2f946d32d112bf83e31f514caee42",
+    "figures/MLP_before_after.png": "2d5bc72efd374d1d410affcea5fd30d8fe0371c02c7ce137b95165dab7898a14",
+    "code/Li_other_methods.py": "01bc35903ca43b6833e213b6444ad39f884dca61d4858c17430886cc87adbc77",
+    "other_methods/training_summary.csv": "0fd1f3977f8797dc48e8d17ac7bfab548f67d0d181e80429832ed507d2d7f78f",
+    "other_methods/candidates_before_scores.json": "4f9031d3b3ba31bf00f32c70cffbe9d420935e070a7cd42a727c035d2297d3c3",
+    "other_methods/selection_before_test.json": "8d68e0d7744cee3e6a2ff7d488a8c42b22369597915467a6f78afc9f1b31c78e",
+    "other_methods/selected_test_predictions.csv": "5c9c328445b774a4d0b17a527503a24e75e64303f62f2b76f11340363cc8570d",
+    "requirements_other_methods.txt": "8b89ae183bb5b02f57f3acd8752bd1decf9191e10067fd40f77048a1a0f1b43c",
+    "other_methods/results/xgboost/fit.png": "bc991ce875fe0f4aa72769f0e71eca1dd4155a06c9323c8b115df4c347654fb4",
+    "other_methods/results/xgboost/importance.png": "e68522cef4f6b7d65c498331178a54788f4674b596662e4e89d41d0588298132",
+    "other_methods/results/gpr/fit.png": "5a8d6912348d741ce6bca3e05e84c843c803c045e709889372e579ca3a3727ea",
+    "other_methods/results/gpr/importance.png": "60541c22cc0a89f4258741862bf313353a08e7089ff8c22ddb696f7782a3c937",
+    "other_methods/results/spline/fit.png": "2d95ad07ff1b12a6c62556ae568b5091e09ff4439dd8c4255d370417b88fa92c",
+    "other_methods/results/spline/importance.png": "63499ab7c4b6b87477b994a59cb968208a745e33ad68f9d04b9fc8282a0321a6",
+    "other_methods/ensemble_training_scores.json": "e3c49e9d500e41a20bafb32da4e5d125ce8020af926a87afcf527400a9ba61f8",
+    "other_methods/ensemble_test_result.json": "c9689ccfc793649aeb02a834e6dc2f4d425d32897915c1ce208a6a1806c1ceec",
+    "other_methods/ensemble_test_predictions.csv": "5122398c5e215247f00e5d7b8bb513fa52e2a9001d1efadd68be56e82358dde5",
+    "other_methods/results/rf_gp/fit.png": "11439e99919786b40e263fa0d6c1c9afb3e0c09930ac78a1607bd1fbb4e17269",
+    "other_methods/results/rf_gp/importance.png": "fd6025085ff99c6704a57ad46e4c0d89ec408afdab7c6af5a7b905c1c3b7813f",
+    "figures/performance_overview.png": "543279de894e2fdfd9a07a5461777600213d72540afba3e67e9eba50bcb364df",
+    "figures/standardized_group_importance.png": "69f4b78bc2ad49c8fa8a17e649c31677cdb57d98db70c83851e10a0f68c19681"
+  },
+  "workbooks": {
+    "00_Comparison.xlsx": {
+      "sheet": "00_总对比",
+      "rows": 118
+    },
+    "01_RF.xlsx": {
+      "sheet": "01_RF",
+      "sections": {
+        "process": 18,
+        "params": 29,
+        "figures": 64,
+        "records": 563,
+        "predictions": 762,
+        "sources": 1039
+      },
+      "rows": 1055,
+      "figures": 17,
+      "records": 194,
+      "prediction_start": 765,
+      "final_R2": 0.5538115677138247
+    },
+    "02_SVR.xlsx": {
+      "sheet": "02_SVR",
+      "sections": {
+        "process": 18,
+        "params": 27,
+        "figures": 37,
+        "records": 212,
+        "predictions": 325,
+        "sources": 602
+      },
+      "rows": 614,
+      "figures": 6,
+      "records": 108,
+      "prediction_start": 328,
+      "final_R2": 0.5135329192625795
+    },
+    "03_LightGBM.xlsx": {
+      "sheet": "03_LightGBM",
+      "sections": {
+        "process": 18,
+        "params": 27,
+        "figures": 45,
+        "records": 265,
+        "predictions": 390,
+        "sources": 667
+      },
+      "rows": 679,
+      "figures": 8,
+      "records": 120,
+      "prediction_start": 393,
+      "final_R2": 0.48514896363011817
+    },
+    "04_MLP.xlsx": {
+      "sheet": "04_MLP",
+      "sections": {
+        "process": 18,
+        "params": 28,
+        "figures": 39,
+        "records": 214,
+        "predictions": 269,
+        "sources": 546
+      },
+      "rows": 561,
+      "figures": 6,
+      "records": 50,
+      "prediction_start": 272,
+      "final_R2": 0.500689768661358
+    },
+    "05_XGBoost.xlsx": {
+      "sheet": "05_XGBoost",
+      "sections": {
+        "process": 18,
+        "params": 26,
+        "figures": 36,
+        "records": 154,
+        "predictions": 207,
+        "sources": 484
+      },
+      "rows": 497,
+      "figures": 4,
+      "records": 48,
+      "prediction_start": 210,
+      "final_R2": 0.4982010553501839
+    },
+    "06_GaussianProcess.xlsx": {
+      "sheet": "06_GaussianProcess",
+      "sections": {
+        "process": 18,
+        "params": 27,
+        "figures": 36,
+        "records": 154,
+        "predictions": 191,
+        "sources": 468
+      },
+      "rows": 481,
+      "figures": 4,
+      "records": 32,
+      "prediction_start": 194,
+      "final_R2": 0.5439881903134821
+    },
+    "07_SplineRidge.xlsx": {
+      "sheet": "07_SplineRidge",
+      "sections": {
+        "process": 18,
+        "params": 26,
+        "figures": 35,
+        "records": 153,
+        "predictions": 206,
+        "sources": 483
+      },
+      "rows": 496,
+      "figures": 4,
+      "records": 48,
+      "prediction_start": 209,
+      "final_R2": 0.49393295680223614
+    },
+    "08_RF_GP.xlsx": {
+      "sheet": "08_RF_GP",
+      "sections": {
+        "process": 18,
+        "params": 27,
+        "figures": 37,
+        "records": 148,
+        "predictions": 164,
+        "sources": 441
+      },
+      "rows": 457,
+      "figures": 4,
+      "records": 11,
+      "prediction_start": 167,
+      "final_R2": 0.5506203226572595
+    }
+  }
+}

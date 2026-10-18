@@ -4,6 +4,9 @@
 
 ## 下载
 
+- [8种方案详细表总文件（9个工作表，内嵌全部图册）](eight_model_tables/All_8_models.xlsx)
+- [8份模型详表＋1份总对比，以及综合文件打包](eight_model_tables/Eight_models_all_tables.zip)
+
 - [组会Word报告（25页，含新方法及各轮补充）](Li_group_meeting_report.docx)
 - [PDF阅读版](Li_group_meeting_report.pdf)
 - [最初四方法结果总表Excel](group_meeting_results.xlsx)

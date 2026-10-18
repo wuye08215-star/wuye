@@ -1,0 +1,42 @@
+{
+  "00_Comparison.xlsx": {
+    "bytes": 238102,
+    "sha256": "dd4a9dd3b9c36b07ea5fc7a03b09cda2d9d17c9f44124dabf59e6287e1fd7f22"
+  },
+  "01_RF.xlsx": {
+    "bytes": 2868902,
+    "sha256": "fcca2b3809830f57ea414478c41d9e890668762461754b02d94b40bfd5d6be13"
+  },
+  "02_SVR.xlsx": {
+    "bytes": 745724,
+    "sha256": "d4265aa5525b23cd46d65d12c3ab868e959daf3991d943f0f90e2c6e41ffe2a9"
+  },
+  "03_LightGBM.xlsx": {
+    "bytes": 985590,
+    "sha256": "bbd1e45b6e895b5d137ad560c61192396bdeeaea04a70cc68f7739e11d01cea3"
+  },
+  "04_MLP.xlsx": {
+    "bytes": 731781,
+    "sha256": "54e2237915a92c5e9af62572919863f2886a912638937e86a99f22637cda27ca"
+  },
+  "05_XGBoost.xlsx": {
+    "bytes": 350869,
+    "sha256": "dd932461cf23413b2c1b91f6ed32d44b164f875b1d549665c96d6a856cb9b3bf"
+  },
+  "06_GaussianProcess.xlsx": {
+    "bytes": 341333,
+    "sha256": "cd011112ec1dad3fe9b0595438660ca4d8fc3157f9d7014d48e6fa48fc3a3aa1"
+  },
+  "07_SplineRidge.xlsx": {
+    "bytes": 352863,
+    "sha256": "c15bd7fb868747a279a549de799ef6db458ad112c601603556a5009d6b0aee45"
+  },
+  "08_RF_GP.xlsx": {
+    "bytes": 386847,
+    "sha256": "84f2c1af03a77503f7835d50fea9770f647751a538c13b0b38273ce84516ec6b"
+  },
+  "All_8_models.xlsx": {
+    "bytes": 6815611,
+    "sha256": "68aca5065bf3f941aa07529d535a9242e577a7c32b4b492f91dbe4c316426200"
+  }
+}
