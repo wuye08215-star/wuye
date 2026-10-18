@@ -15,7 +15,7 @@
   "final_prediction": "max(raw_prediction,0), fixed physical lower limit; threshold not learned",
   "final_memory_layout": "np.ascontiguousarray after column selection",
   "importance": "20 shared permutations, seed42; original 18-col block jointly shuffled; modified shared group retained as one column. Final importance scorer uses the same physical lower limit.",
-  "validation": "All four delivered scripts executed; predictions, original Excel row IDs, metrics and permutation importance matched frozen experiment outputs. Report rendered to 20-page PDF and layout checked.",
+  "validation": "All four delivered scripts executed; predictions, original Excel row IDs, metrics and permutation importance matched frozen experiment outputs. Report rendered to 23-page PDF and layout checked.",
   "limitations": "Internal development validation; no external independent validation; importance is not causal; MLP gain dominated by one invalid negative prediction.",
   "additional_round": {
     "portable_model_constructor_reproduction": "All 11 selected results match original saved-model run within 1e-12.",
@@ -26,5 +26,19 @@
     "extra_configurations_including_controls": 63,
     "ensemble_weights": 11,
     "selection": "Mean five-fold training CV only. Fixed test is internal development validation. No claim of exhaustive search, proven R2 ceiling, or statistically significant gain."
+  },
+  "feature_selection_round": {
+    "recipes": 67,
+    "fold_scores": 335,
+    "subsets": 63,
+    "training_n": 1090,
+    "test_n": 273,
+    "no_extra_sample_deletion": true,
+    "ranking_check": "Every fold ranking inner train/validation union equals outer training fold; no outer validation or fixed test rows used for ranking.",
+    "selection": "Four-group AET, AI, Alpha(AET/PET), BIO7 chosen by mean training CV only.",
+    "minimal_script_check": "Executed on original QSH.xlsx; all 273 test Excel row IDs match and predictions agree within 1e-10.",
+    "R2": 0.5538115677138247,
+    "positive_paired_CV_folds": 4,
+    "report_layout": "23-page main report, 3-page standalone; all new pages rendered and reviewed."
   }
 }

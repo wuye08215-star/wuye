@@ -1,0 +1,14 @@
+{
+  "recipes": 67,
+  "fold_scores": 335,
+  "subsets": 63,
+  "training_n": 1090,
+  "test_n": 273,
+  "no_extra_sample_deletion": true,
+  "ranking_check": "Every fold ranking inner train/validation union equals outer training fold; no outer validation or fixed test rows used for ranking.",
+  "selection": "Four-group AET, AI, Alpha(AET/PET), BIO7 chosen by mean training CV only.",
+  "minimal_script_check": "Executed on original QSH.xlsx; all 273 test Excel row IDs match and predictions agree within 1e-10.",
+  "R2": 0.5538115677138247,
+  "positive_paired_CV_folds": 4,
+  "report_layout": "23-page main report, 3-page standalone; all new pages rendered and reviewed."
+}

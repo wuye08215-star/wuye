@@ -1,0 +1,336 @@
+candidate,family,fold,n_features,columns,features,R2
+subset_0,subset_modified_RF,1,1,[0],CECS,0.28418447125062973
+subset_18,subset_modified_RF,1,1,[18],AET,0.43320104259084047
+subset_19,subset_modified_RF,1,1,[19],AI,0.34740183229964827
+subset_20,subset_modified_RF,1,1,[20],Alpha(AET/PET),0.2550721493436757
+subset_21,subset_modified_RF,1,1,[21],PET,0.20357377127071163
+subset_22,subset_modified_RF,1,1,[22],BIO7,0.0596067596262112
+subset_0_18,subset_modified_RF,1,2,"[0, 18]",CECS | AET,0.45205384984364483
+subset_0_19,subset_modified_RF,1,2,"[0, 19]",CECS | AI,0.4245240990264295
+subset_0_20,subset_modified_RF,1,2,"[0, 20]",CECS | Alpha(AET/PET),0.3058253843096367
+subset_0_21,subset_modified_RF,1,2,"[0, 21]",CECS | PET,0.33797791640462005
+subset_0_22,subset_modified_RF,1,2,"[0, 22]",CECS | BIO7,0.22658600780196414
+subset_18_19,subset_modified_RF,1,2,"[18, 19]",AET | AI,0.4255470799753621
+subset_18_20,subset_modified_RF,1,2,"[18, 20]",AET | Alpha(AET/PET),0.4262266628093223
+subset_18_21,subset_modified_RF,1,2,"[18, 21]",AET | PET,0.42008968316013273
+subset_18_22,subset_modified_RF,1,2,"[18, 22]",AET | BIO7,0.4264795469291013
+subset_19_20,subset_modified_RF,1,2,"[19, 20]",AI | Alpha(AET/PET),0.4362152340781982
+subset_19_21,subset_modified_RF,1,2,"[19, 21]",AI | PET,0.37664971913306255
+subset_19_22,subset_modified_RF,1,2,"[19, 22]",AI | BIO7,0.3884124727248932
+subset_20_21,subset_modified_RF,1,2,"[20, 21]",Alpha(AET/PET) | PET,0.3241803422548619
+subset_20_22,subset_modified_RF,1,2,"[20, 22]",Alpha(AET/PET) | BIO7,0.3726776843183933
+subset_21_22,subset_modified_RF,1,2,"[21, 22]",PET | BIO7,0.2989019073286501
+subset_0_18_19,subset_modified_RF,1,3,"[0, 18, 19]",CECS | AET | AI,0.4605894319199805
+subset_0_18_20,subset_modified_RF,1,3,"[0, 18, 20]",CECS | AET | Alpha(AET/PET),0.41753079502816703
+subset_0_18_21,subset_modified_RF,1,3,"[0, 18, 21]",CECS | AET | PET,0.4286909061505173
+subset_0_18_22,subset_modified_RF,1,3,"[0, 18, 22]",CECS | AET | BIO7,0.4232495548020788
+subset_0_19_20,subset_modified_RF,1,3,"[0, 19, 20]",CECS | AI | Alpha(AET/PET),0.41751452178887394
+subset_0_19_21,subset_modified_RF,1,3,"[0, 19, 21]",CECS | AI | PET,0.4135297300766245
+subset_0_19_22,subset_modified_RF,1,3,"[0, 19, 22]",CECS | AI | BIO7,0.3922642523606954
+subset_0_20_21,subset_modified_RF,1,3,"[0, 20, 21]",CECS | Alpha(AET/PET) | PET,0.3600605194711398
+subset_0_20_22,subset_modified_RF,1,3,"[0, 20, 22]",CECS | Alpha(AET/PET) | BIO7,0.35669486271774464
+subset_0_21_22,subset_modified_RF,1,3,"[0, 21, 22]",CECS | PET | BIO7,0.33926184346594657
+subset_18_19_20,subset_modified_RF,1,3,"[18, 19, 20]",AET | AI | Alpha(AET/PET),0.4500009516132949
+subset_18_19_21,subset_modified_RF,1,3,"[18, 19, 21]",AET | AI | PET,0.4355449234918771
+subset_18_19_22,subset_modified_RF,1,3,"[18, 19, 22]",AET | AI | BIO7,0.45168239772855034
+subset_18_20_21,subset_modified_RF,1,3,"[18, 20, 21]",AET | Alpha(AET/PET) | PET,0.4068625307115771
+subset_18_20_22,subset_modified_RF,1,3,"[18, 20, 22]",AET | Alpha(AET/PET) | BIO7,0.4326569132176501
+subset_18_21_22,subset_modified_RF,1,3,"[18, 21, 22]",AET | PET | BIO7,0.41493462157675953
+subset_19_20_21,subset_modified_RF,1,3,"[19, 20, 21]",AI | Alpha(AET/PET) | PET,0.4023463443724703
+subset_19_20_22,subset_modified_RF,1,3,"[19, 20, 22]",AI | Alpha(AET/PET) | BIO7,0.4303603896351885
+subset_19_21_22,subset_modified_RF,1,3,"[19, 21, 22]",AI | PET | BIO7,0.3865897503056266
+subset_20_21_22,subset_modified_RF,1,3,"[20, 21, 22]",Alpha(AET/PET) | PET | BIO7,0.37158176584279135
+subset_0_18_19_20,subset_modified_RF,1,4,"[0, 18, 19, 20]",CECS | AET | AI | Alpha(AET/PET),0.4455917403104852
+subset_0_18_19_21,subset_modified_RF,1,4,"[0, 18, 19, 21]",CECS | AET | AI | PET,0.4448912885414019
+subset_0_18_19_22,subset_modified_RF,1,4,"[0, 18, 19, 22]",CECS | AET | AI | BIO7,0.44276029983249343
+subset_0_18_20_21,subset_modified_RF,1,4,"[0, 18, 20, 21]",CECS | AET | Alpha(AET/PET) | PET,0.426013087515286
+subset_0_18_20_22,subset_modified_RF,1,4,"[0, 18, 20, 22]",CECS | AET | Alpha(AET/PET) | BIO7,0.41923139135604426
+subset_0_18_21_22,subset_modified_RF,1,4,"[0, 18, 21, 22]",CECS | AET | PET | BIO7,0.4182939918036731
+subset_0_19_20_21,subset_modified_RF,1,4,"[0, 19, 20, 21]",CECS | AI | Alpha(AET/PET) | PET,0.41749948369596446
+subset_0_19_20_22,subset_modified_RF,1,4,"[0, 19, 20, 22]",CECS | AI | Alpha(AET/PET) | BIO7,0.4210021678929079
+subset_0_19_21_22,subset_modified_RF,1,4,"[0, 19, 21, 22]",CECS | AI | PET | BIO7,0.39330996475303825
+subset_0_20_21_22,subset_modified_RF,1,4,"[0, 20, 21, 22]",CECS | Alpha(AET/PET) | PET | BIO7,0.3695709209795207
+subset_18_19_20_21,subset_modified_RF,1,4,"[18, 19, 20, 21]",AET | AI | Alpha(AET/PET) | PET,0.4286556218369586
+subset_18_19_20_22,subset_modified_RF,1,4,"[18, 19, 20, 22]",AET | AI | Alpha(AET/PET) | BIO7,0.45062312308775665
+subset_18_19_21_22,subset_modified_RF,1,4,"[18, 19, 21, 22]",AET | AI | PET | BIO7,0.431005834654442
+subset_18_20_21_22,subset_modified_RF,1,4,"[18, 20, 21, 22]",AET | Alpha(AET/PET) | PET | BIO7,0.41894356367234864
+subset_19_20_21_22,subset_modified_RF,1,4,"[19, 20, 21, 22]",AI | Alpha(AET/PET) | PET | BIO7,0.4072073507149955
+subset_0_18_19_20_21,subset_modified_RF,1,5,"[0, 18, 19, 20, 21]",CECS | AET | AI | Alpha(AET/PET) | PET,0.43962901897845474
+subset_0_18_19_20_22,subset_modified_RF,1,5,"[0, 18, 19, 20, 22]",CECS | AET | AI | Alpha(AET/PET) | BIO7,0.44889368685927133
+subset_0_18_19_21_22,subset_modified_RF,1,5,"[0, 18, 19, 21, 22]",CECS | AET | AI | PET | BIO7,0.4351561557167377
+subset_0_18_20_21_22,subset_modified_RF,1,5,"[0, 18, 20, 21, 22]",CECS | AET | Alpha(AET/PET) | PET | BIO7,0.42256649636111787
+subset_0_19_20_21_22,subset_modified_RF,1,5,"[0, 19, 20, 21, 22]",CECS | AI | Alpha(AET/PET) | PET | BIO7,0.4085940118275778
+subset_18_19_20_21_22,subset_modified_RF,1,5,"[18, 19, 20, 21, 22]",AET | AI | Alpha(AET/PET) | PET | BIO7,0.4386612248168613
+subset_0_18_19_20_21_22,subset_modified_RF,1,6,"[0, 18, 19, 20, 21, 22]",CECS | AET | AI | Alpha(AET/PET) | PET | BIO7,0.4301627755972468
+original23,raw_column_comparison,1,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.39081399491583035
+modified_params23,raw_column_comparison,1,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.43809359648753066
+training_rank_top6_original_RF,raw_column_comparison,1,6,"[19, 21, 20, 22, 18, 1]",AI | PET | Alpha(AET/PET) | BIO7 | AET | CECT,0.38952830995733445
+training_rank_top7_original_RF,raw_column_comparison,1,7,"[19, 21, 20, 22, 18, 1, 11]",AI | PET | Alpha(AET/PET) | BIO7 | AET | CECT | TGC,0.38865496115135545
+subset_0,subset_modified_RF,2,1,[0],CECS,0.30483776686155917
+subset_18,subset_modified_RF,2,1,[18],AET,0.3825096167368707
+subset_19,subset_modified_RF,2,1,[19],AI,0.4501455022960483
+subset_20,subset_modified_RF,2,1,[20],Alpha(AET/PET),0.42267648720753503
+subset_21,subset_modified_RF,2,1,[21],PET,0.1739234042978124
+subset_22,subset_modified_RF,2,1,[22],BIO7,0.06881580118145891
+subset_0_18,subset_modified_RF,2,2,"[0, 18]",CECS | AET,0.426943588144849
+subset_0_19,subset_modified_RF,2,2,"[0, 19]",CECS | AI,0.42884155715965855
+subset_0_20,subset_modified_RF,2,2,"[0, 20]",CECS | Alpha(AET/PET),0.4049497109012493
+subset_0_21,subset_modified_RF,2,2,"[0, 21]",CECS | PET,0.37980679247960936
+subset_0_22,subset_modified_RF,2,2,"[0, 22]",CECS | BIO7,0.37726135002897876
+subset_18_19,subset_modified_RF,2,2,"[18, 19]",AET | AI,0.4752422599391337
+subset_18_20,subset_modified_RF,2,2,"[18, 20]",AET | Alpha(AET/PET),0.5064924189605144
+subset_18_21,subset_modified_RF,2,2,"[18, 21]",AET | PET,0.4589541645840375
+subset_18_22,subset_modified_RF,2,2,"[18, 22]",AET | BIO7,0.4772041707773317
+subset_19_20,subset_modified_RF,2,2,"[19, 20]",AI | Alpha(AET/PET),0.5077647901024782
+subset_19_21,subset_modified_RF,2,2,"[19, 21]",AI | PET,0.4442637751926296
+subset_19_22,subset_modified_RF,2,2,"[19, 22]",AI | BIO7,0.4899541859631521
+subset_20_21,subset_modified_RF,2,2,"[20, 21]",Alpha(AET/PET) | PET,0.4193044046015244
+subset_20_22,subset_modified_RF,2,2,"[20, 22]",Alpha(AET/PET) | BIO7,0.5086822705693115
+subset_21_22,subset_modified_RF,2,2,"[21, 22]",PET | BIO7,0.4088583418381396
+subset_0_18_19,subset_modified_RF,2,3,"[0, 18, 19]",CECS | AET | AI,0.460173245121027
+subset_0_18_20,subset_modified_RF,2,3,"[0, 18, 20]",CECS | AET | Alpha(AET/PET),0.4669696726603102
+subset_0_18_21,subset_modified_RF,2,3,"[0, 18, 21]",CECS | AET | PET,0.4350082626092553
+subset_0_18_22,subset_modified_RF,2,3,"[0, 18, 22]",CECS | AET | BIO7,0.45744404363207036
+subset_0_19_20,subset_modified_RF,2,3,"[0, 19, 20]",CECS | AI | Alpha(AET/PET),0.4684586027415093
+subset_0_19_21,subset_modified_RF,2,3,"[0, 19, 21]",CECS | AI | PET,0.4348888595383774
+subset_0_19_22,subset_modified_RF,2,3,"[0, 19, 22]",CECS | AI | BIO7,0.4671968082321657
+subset_0_20_21,subset_modified_RF,2,3,"[0, 20, 21]",CECS | Alpha(AET/PET) | PET,0.4229832787162481
+subset_0_20_22,subset_modified_RF,2,3,"[0, 20, 22]",CECS | Alpha(AET/PET) | BIO7,0.4705476290954568
+subset_0_21_22,subset_modified_RF,2,3,"[0, 21, 22]",CECS | PET | BIO7,0.44649305612251766
+subset_18_19_20,subset_modified_RF,2,3,"[18, 19, 20]",AET | AI | Alpha(AET/PET),0.5207293365888319
+subset_18_19_21,subset_modified_RF,2,3,"[18, 19, 21]",AET | AI | PET,0.48439267339225456
+subset_18_19_22,subset_modified_RF,2,3,"[18, 19, 22]",AET | AI | BIO7,0.508325985308486
+subset_18_20_21,subset_modified_RF,2,3,"[18, 20, 21]",AET | Alpha(AET/PET) | PET,0.4987525010598626
+subset_18_20_22,subset_modified_RF,2,3,"[18, 20, 22]",AET | Alpha(AET/PET) | BIO7,0.5202617994605245
+subset_18_21_22,subset_modified_RF,2,3,"[18, 21, 22]",AET | PET | BIO7,0.47344896342300513
+subset_19_20_21,subset_modified_RF,2,3,"[19, 20, 21]",AI | Alpha(AET/PET) | PET,0.48235108153872286
+subset_19_20_22,subset_modified_RF,2,3,"[19, 20, 22]",AI | Alpha(AET/PET) | BIO7,0.5189666640924938
+subset_19_21_22,subset_modified_RF,2,3,"[19, 21, 22]",AI | PET | BIO7,0.4697282714099795
+subset_20_21_22,subset_modified_RF,2,3,"[20, 21, 22]",Alpha(AET/PET) | PET | BIO7,0.4819703178097362
+subset_0_18_19_20,subset_modified_RF,2,4,"[0, 18, 19, 20]",CECS | AET | AI | Alpha(AET/PET),0.48411066147833703
+subset_0_18_19_21,subset_modified_RF,2,4,"[0, 18, 19, 21]",CECS | AET | AI | PET,0.45802501013193464
+subset_0_18_19_22,subset_modified_RF,2,4,"[0, 18, 19, 22]",CECS | AET | AI | BIO7,0.4860749145756815
+subset_0_18_20_21,subset_modified_RF,2,4,"[0, 18, 20, 21]",CECS | AET | Alpha(AET/PET) | PET,0.4620783861097565
+subset_0_18_20_22,subset_modified_RF,2,4,"[0, 18, 20, 22]",CECS | AET | Alpha(AET/PET) | BIO7,0.48757763989303704
+subset_0_18_21_22,subset_modified_RF,2,4,"[0, 18, 21, 22]",CECS | AET | PET | BIO7,0.4599253103587765
+subset_0_19_20_21,subset_modified_RF,2,4,"[0, 19, 20, 21]",CECS | AI | Alpha(AET/PET) | PET,0.45634117459066115
+subset_0_19_20_22,subset_modified_RF,2,4,"[0, 19, 20, 22]",CECS | AI | Alpha(AET/PET) | BIO7,0.49455823864153803
+subset_0_19_21_22,subset_modified_RF,2,4,"[0, 19, 21, 22]",CECS | AI | PET | BIO7,0.46155908941336266
+subset_0_20_21_22,subset_modified_RF,2,4,"[0, 20, 21, 22]",CECS | Alpha(AET/PET) | PET | BIO7,0.46212063429924677
+subset_18_19_20_21,subset_modified_RF,2,4,"[18, 19, 20, 21]",AET | AI | Alpha(AET/PET) | PET,0.5084063207977896
+subset_18_19_20_22,subset_modified_RF,2,4,"[18, 19, 20, 22]",AET | AI | Alpha(AET/PET) | BIO7,0.5264210484055611
+subset_18_19_21_22,subset_modified_RF,2,4,"[18, 19, 21, 22]",AET | AI | PET | BIO7,0.49431505568403666
+subset_18_20_21_22,subset_modified_RF,2,4,"[18, 20, 21, 22]",AET | Alpha(AET/PET) | PET | BIO7,0.502499885544555
+subset_19_20_21_22,subset_modified_RF,2,4,"[19, 20, 21, 22]",AI | Alpha(AET/PET) | PET | BIO7,0.5002307740598185
+subset_0_18_19_20_21,subset_modified_RF,2,5,"[0, 18, 19, 20, 21]",CECS | AET | AI | Alpha(AET/PET) | PET,0.4771112817029667
+subset_0_18_19_20_22,subset_modified_RF,2,5,"[0, 18, 19, 20, 22]",CECS | AET | AI | Alpha(AET/PET) | BIO7,0.5014866810483619
+subset_0_18_19_21_22,subset_modified_RF,2,5,"[0, 18, 19, 21, 22]",CECS | AET | AI | PET | BIO7,0.475121958623412
+subset_0_18_20_21_22,subset_modified_RF,2,5,"[0, 18, 20, 21, 22]",CECS | AET | Alpha(AET/PET) | PET | BIO7,0.47794145286380185
+subset_0_19_20_21_22,subset_modified_RF,2,5,"[0, 19, 20, 21, 22]",CECS | AI | Alpha(AET/PET) | PET | BIO7,0.4781026996492421
+subset_18_19_20_21_22,subset_modified_RF,2,5,"[18, 19, 20, 21, 22]",AET | AI | Alpha(AET/PET) | PET | BIO7,0.5124942737010302
+subset_0_18_19_20_21_22,subset_modified_RF,2,6,"[0, 18, 19, 20, 21, 22]",CECS | AET | AI | Alpha(AET/PET) | PET | BIO7,0.49551992522858834
+original23,raw_column_comparison,2,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.48388425064418017
+modified_params23,raw_column_comparison,2,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.46127258330841037
+training_rank_top6_original_RF,raw_column_comparison,2,6,"[21, 18, 19, 22, 9, 3]",PET | AET | AI | BIO7 | TSiF | SOC,0.4748778995716233
+training_rank_top7_original_RF,raw_column_comparison,2,7,"[21, 18, 19, 22, 9, 3, 7]",PET | AET | AI | BIO7 | TSiF | SOC | SGC,0.4748656159673357
+subset_0,subset_modified_RF,3,1,[0],CECS,0.18294899662270747
+subset_18,subset_modified_RF,3,1,[18],AET,0.3709489027822135
+subset_19,subset_modified_RF,3,1,[19],AI,0.3622332474261645
+subset_20,subset_modified_RF,3,1,[20],Alpha(AET/PET),0.23671312746840334
+subset_21,subset_modified_RF,3,1,[21],PET,0.13366665842959768
+subset_22,subset_modified_RF,3,1,[22],BIO7,0.0005717643845639664
+subset_0_18,subset_modified_RF,3,2,"[0, 18]",CECS | AET,0.3166593574842592
+subset_0_19,subset_modified_RF,3,2,"[0, 19]",CECS | AI,0.3411260295191292
+subset_0_20,subset_modified_RF,3,2,"[0, 20]",CECS | Alpha(AET/PET),0.3270666304287062
+subset_0_21,subset_modified_RF,3,2,"[0, 21]",CECS | PET,0.2687390753046255
+subset_0_22,subset_modified_RF,3,2,"[0, 22]",CECS | BIO7,0.19756447753383166
+subset_18_19,subset_modified_RF,3,2,"[18, 19]",AET | AI,0.3937691734810801
+subset_18_20,subset_modified_RF,3,2,"[18, 20]",AET | Alpha(AET/PET),0.37193555060966743
+subset_18_21,subset_modified_RF,3,2,"[18, 21]",AET | PET,0.35240568310534226
+subset_18_22,subset_modified_RF,3,2,"[18, 22]",AET | BIO7,0.30542180219061
+subset_19_20,subset_modified_RF,3,2,"[19, 20]",AI | Alpha(AET/PET),0.3438112662238758
+subset_19_21,subset_modified_RF,3,2,"[19, 21]",AI | PET,0.39238490359210165
+subset_19_22,subset_modified_RF,3,2,"[19, 22]",AI | BIO7,0.3709080374583379
+subset_20_21,subset_modified_RF,3,2,"[20, 21]",Alpha(AET/PET) | PET,0.32903480178691513
+subset_20_22,subset_modified_RF,3,2,"[20, 22]",Alpha(AET/PET) | BIO7,0.29201231801694194
+subset_21_22,subset_modified_RF,3,2,"[21, 22]",PET | BIO7,0.24809417610015516
+subset_0_18_19,subset_modified_RF,3,3,"[0, 18, 19]",CECS | AET | AI,0.3703762706154762
+subset_0_18_20,subset_modified_RF,3,3,"[0, 18, 20]",CECS | AET | Alpha(AET/PET),0.37016298898608313
+subset_0_18_21,subset_modified_RF,3,3,"[0, 18, 21]",CECS | AET | PET,0.32399418600337804
+subset_0_18_22,subset_modified_RF,3,3,"[0, 18, 22]",CECS | AET | BIO7,0.29654329298789195
+subset_0_19_20,subset_modified_RF,3,3,"[0, 19, 20]",CECS | AI | Alpha(AET/PET),0.38277913937129404
+subset_0_19_21,subset_modified_RF,3,3,"[0, 19, 21]",CECS | AI | PET,0.3605898749702122
+subset_0_19_22,subset_modified_RF,3,3,"[0, 19, 22]",CECS | AI | BIO7,0.3237131781045225
+subset_0_20_21,subset_modified_RF,3,3,"[0, 20, 21]",CECS | Alpha(AET/PET) | PET,0.3489602150846389
+subset_0_20_22,subset_modified_RF,3,3,"[0, 20, 22]",CECS | Alpha(AET/PET) | BIO7,0.32198323697884124
+subset_0_21_22,subset_modified_RF,3,3,"[0, 21, 22]",CECS | PET | BIO7,0.2943591543172035
+subset_18_19_20,subset_modified_RF,3,3,"[18, 19, 20]",AET | AI | Alpha(AET/PET),0.3754239500183636
+subset_18_19_21,subset_modified_RF,3,3,"[18, 19, 21]",AET | AI | PET,0.38264123159134833
+subset_18_19_22,subset_modified_RF,3,3,"[18, 19, 22]",AET | AI | BIO7,0.3849177651407458
+subset_18_20_21,subset_modified_RF,3,3,"[18, 20, 21]",AET | Alpha(AET/PET) | PET,0.3624494978111106
+subset_18_20_22,subset_modified_RF,3,3,"[18, 20, 22]",AET | Alpha(AET/PET) | BIO7,0.35577383724693823
+subset_18_21_22,subset_modified_RF,3,3,"[18, 21, 22]",AET | PET | BIO7,0.33599033150839597
+subset_19_20_21,subset_modified_RF,3,3,"[19, 20, 21]",AI | Alpha(AET/PET) | PET,0.3659179660082005
+subset_19_20_22,subset_modified_RF,3,3,"[19, 20, 22]",AI | Alpha(AET/PET) | BIO7,0.3683873020920646
+subset_19_21_22,subset_modified_RF,3,3,"[19, 21, 22]",AI | PET | BIO7,0.36384776375785943
+subset_20_21_22,subset_modified_RF,3,3,"[20, 21, 22]",Alpha(AET/PET) | PET | BIO7,0.3259463426231002
+subset_0_18_19_20,subset_modified_RF,3,4,"[0, 18, 19, 20]",CECS | AET | AI | Alpha(AET/PET),0.3915168386658331
+subset_0_18_19_21,subset_modified_RF,3,4,"[0, 18, 19, 21]",CECS | AET | AI | PET,0.3716600839859915
+subset_0_18_19_22,subset_modified_RF,3,4,"[0, 18, 19, 22]",CECS | AET | AI | BIO7,0.36501229435590743
+subset_0_18_20_21,subset_modified_RF,3,4,"[0, 18, 20, 21]",CECS | AET | Alpha(AET/PET) | PET,0.3648937631226127
+subset_0_18_20_22,subset_modified_RF,3,4,"[0, 18, 20, 22]",CECS | AET | Alpha(AET/PET) | BIO7,0.3491047837547019
+subset_0_18_21_22,subset_modified_RF,3,4,"[0, 18, 21, 22]",CECS | AET | PET | BIO7,0.3345154707194463
+subset_0_19_20_21,subset_modified_RF,3,4,"[0, 19, 20, 21]",CECS | AI | Alpha(AET/PET) | PET,0.3802711976337133
+subset_0_19_20_22,subset_modified_RF,3,4,"[0, 19, 20, 22]",CECS | AI | Alpha(AET/PET) | BIO7,0.3660588890981894
+subset_0_19_21_22,subset_modified_RF,3,4,"[0, 19, 21, 22]",CECS | AI | PET | BIO7,0.3565681364112596
+subset_0_20_21_22,subset_modified_RF,3,4,"[0, 20, 21, 22]",CECS | Alpha(AET/PET) | PET | BIO7,0.34315984137848576
+subset_18_19_20_21,subset_modified_RF,3,4,"[18, 19, 20, 21]",AET | AI | Alpha(AET/PET) | PET,0.37918302972063356
+subset_18_19_20_22,subset_modified_RF,3,4,"[18, 19, 20, 22]",AET | AI | Alpha(AET/PET) | BIO7,0.373789110549527
+subset_18_19_21_22,subset_modified_RF,3,4,"[18, 19, 21, 22]",AET | AI | PET | BIO7,0.37260367288820584
+subset_18_20_21_22,subset_modified_RF,3,4,"[18, 20, 21, 22]",AET | Alpha(AET/PET) | PET | BIO7,0.3480485606846411
+subset_19_20_21_22,subset_modified_RF,3,4,"[19, 20, 21, 22]",AI | Alpha(AET/PET) | PET | BIO7,0.36256774783139245
+subset_0_18_19_20_21,subset_modified_RF,3,5,"[0, 18, 19, 20, 21]",CECS | AET | AI | Alpha(AET/PET) | PET,0.3873458416151331
+subset_0_18_19_20_22,subset_modified_RF,3,5,"[0, 18, 19, 20, 22]",CECS | AET | AI | Alpha(AET/PET) | BIO7,0.3736023056973967
+subset_0_18_19_21_22,subset_modified_RF,3,5,"[0, 18, 19, 21, 22]",CECS | AET | AI | PET | BIO7,0.35898496198818197
+subset_0_18_20_21_22,subset_modified_RF,3,5,"[0, 18, 20, 21, 22]",CECS | AET | Alpha(AET/PET) | PET | BIO7,0.35368800497500474
+subset_0_19_20_21_22,subset_modified_RF,3,5,"[0, 19, 20, 21, 22]",CECS | AI | Alpha(AET/PET) | PET | BIO7,0.37090049491741117
+subset_18_19_20_21_22,subset_modified_RF,3,5,"[18, 19, 20, 21, 22]",AET | AI | Alpha(AET/PET) | PET | BIO7,0.3617227935361509
+subset_0_18_19_20_21_22,subset_modified_RF,3,6,"[0, 18, 19, 20, 21, 22]",CECS | AET | AI | Alpha(AET/PET) | PET | BIO7,0.37640701052189174
+original23,raw_column_comparison,3,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.3474686877429829
+modified_params23,raw_column_comparison,3,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.3526774168826713
+training_rank_top6_original_RF,raw_column_comparison,3,6,"[21, 19, 18, 22, 20, 3]",PET | AI | AET | BIO7 | Alpha(AET/PET) | SOC,0.34695682214159396
+training_rank_top7_original_RF,raw_column_comparison,3,7,"[21, 19, 18, 22, 20, 3, 11]",PET | AI | AET | BIO7 | Alpha(AET/PET) | SOC | TGC,0.34756090236823955
+subset_0,subset_modified_RF,4,1,[0],CECS,0.3195881842547852
+subset_18,subset_modified_RF,4,1,[18],AET,0.4216336184212479
+subset_19,subset_modified_RF,4,1,[19],AI,0.35984234041792296
+subset_20,subset_modified_RF,4,1,[20],Alpha(AET/PET),0.3719541532097076
+subset_21,subset_modified_RF,4,1,[21],PET,-0.011892307519835388
+subset_22,subset_modified_RF,4,1,[22],BIO7,0.11200470325946354
+subset_0_18,subset_modified_RF,4,2,"[0, 18]",CECS | AET,0.42229386811067593
+subset_0_19,subset_modified_RF,4,2,"[0, 19]",CECS | AI,0.38730290002677226
+subset_0_20,subset_modified_RF,4,2,"[0, 20]",CECS | Alpha(AET/PET),0.38890395673517164
+subset_0_21,subset_modified_RF,4,2,"[0, 21]",CECS | PET,0.310286262430833
+subset_0_22,subset_modified_RF,4,2,"[0, 22]",CECS | BIO7,0.27321184087572215
+subset_18_19,subset_modified_RF,4,2,"[18, 19]",AET | AI,0.418752915115835
+subset_18_20,subset_modified_RF,4,2,"[18, 20]",AET | Alpha(AET/PET),0.4536688976468547
+subset_18_21,subset_modified_RF,4,2,"[18, 21]",AET | PET,0.39360273805789747
+subset_18_22,subset_modified_RF,4,2,"[18, 22]",AET | BIO7,0.40812536896909246
+subset_19_20,subset_modified_RF,4,2,"[19, 20]",AI | Alpha(AET/PET),0.4216398943926809
+subset_19_21,subset_modified_RF,4,2,"[19, 21]",AI | PET,0.3678381447213436
+subset_19_22,subset_modified_RF,4,2,"[19, 22]",AI | BIO7,0.42356605423736504
+subset_20_21,subset_modified_RF,4,2,"[20, 21]",Alpha(AET/PET) | PET,0.35289761281128806
+subset_20_22,subset_modified_RF,4,2,"[20, 22]",Alpha(AET/PET) | BIO7,0.4139845348182787
+subset_21_22,subset_modified_RF,4,2,"[21, 22]",PET | BIO7,0.3125251223632183
+subset_0_18_19,subset_modified_RF,4,3,"[0, 18, 19]",CECS | AET | AI,0.4299704428957499
+subset_0_18_20,subset_modified_RF,4,3,"[0, 18, 20]",CECS | AET | Alpha(AET/PET),0.4368187881689608
+subset_0_18_21,subset_modified_RF,4,3,"[0, 18, 21]",CECS | AET | PET,0.39922666479868263
+subset_0_18_22,subset_modified_RF,4,3,"[0, 18, 22]",CECS | AET | BIO7,0.4007989205204776
+subset_0_19_20,subset_modified_RF,4,3,"[0, 19, 20]",CECS | AI | Alpha(AET/PET),0.420284374113304
+subset_0_19_21,subset_modified_RF,4,3,"[0, 19, 21]",CECS | AI | PET,0.3909324613702887
+subset_0_19_22,subset_modified_RF,4,3,"[0, 19, 22]",CECS | AI | BIO7,0.39877773237240766
+subset_0_20_21,subset_modified_RF,4,3,"[0, 20, 21]",CECS | Alpha(AET/PET) | PET,0.36915320553854114
+subset_0_20_22,subset_modified_RF,4,3,"[0, 20, 22]",CECS | Alpha(AET/PET) | BIO7,0.3841578337648036
+subset_0_21_22,subset_modified_RF,4,3,"[0, 21, 22]",CECS | PET | BIO7,0.3493650539193923
+subset_18_19_20,subset_modified_RF,4,3,"[18, 19, 20]",AET | AI | Alpha(AET/PET),0.4450335612513012
+subset_18_19_21,subset_modified_RF,4,3,"[18, 19, 21]",AET | AI | PET,0.41186851848177786
+subset_18_19_22,subset_modified_RF,4,3,"[18, 19, 22]",AET | AI | BIO7,0.43992918572991546
+subset_18_20_21,subset_modified_RF,4,3,"[18, 20, 21]",AET | Alpha(AET/PET) | PET,0.42970260875927047
+subset_18_20_22,subset_modified_RF,4,3,"[18, 20, 22]",AET | Alpha(AET/PET) | BIO7,0.4402108285334392
+subset_18_21_22,subset_modified_RF,4,3,"[18, 21, 22]",AET | PET | BIO7,0.40632837760171925
+subset_19_20_21,subset_modified_RF,4,3,"[19, 20, 21]",AI | Alpha(AET/PET) | PET,0.4096395582569775
+subset_19_20_22,subset_modified_RF,4,3,"[19, 20, 22]",AI | Alpha(AET/PET) | BIO7,0.44524256095763437
+subset_19_21_22,subset_modified_RF,4,3,"[19, 21, 22]",AI | PET | BIO7,0.4102998706733044
+subset_20_21_22,subset_modified_RF,4,3,"[20, 21, 22]",Alpha(AET/PET) | PET | BIO7,0.402139203301222
+subset_0_18_19_20,subset_modified_RF,4,4,"[0, 18, 19, 20]",CECS | AET | AI | Alpha(AET/PET),0.44015051187614085
+subset_0_18_19_21,subset_modified_RF,4,4,"[0, 18, 19, 21]",CECS | AET | AI | PET,0.4186065767065301
+subset_0_18_19_22,subset_modified_RF,4,4,"[0, 18, 19, 22]",CECS | AET | AI | BIO7,0.43252740988237237
+subset_0_18_20_21,subset_modified_RF,4,4,"[0, 18, 20, 21]",CECS | AET | Alpha(AET/PET) | PET,0.41872847115564393
+subset_0_18_20_22,subset_modified_RF,4,4,"[0, 18, 20, 22]",CECS | AET | Alpha(AET/PET) | BIO7,0.42464215321362464
+subset_0_18_21_22,subset_modified_RF,4,4,"[0, 18, 21, 22]",CECS | AET | PET | BIO7,0.4067931021790352
+subset_0_19_20_21,subset_modified_RF,4,4,"[0, 19, 20, 21]",CECS | AI | Alpha(AET/PET) | PET,0.4102779742776853
+subset_0_19_20_22,subset_modified_RF,4,4,"[0, 19, 20, 22]",CECS | AI | Alpha(AET/PET) | BIO7,0.42200299893847204
+subset_0_19_21_22,subset_modified_RF,4,4,"[0, 19, 21, 22]",CECS | AI | PET | BIO7,0.4049010856842159
+subset_0_20_21_22,subset_modified_RF,4,4,"[0, 20, 21, 22]",CECS | Alpha(AET/PET) | PET | BIO7,0.39687455630019275
+subset_18_19_20_21,subset_modified_RF,4,4,"[18, 19, 20, 21]",AET | AI | Alpha(AET/PET) | PET,0.43143353058405787
+subset_18_19_20_22,subset_modified_RF,4,4,"[18, 19, 20, 22]",AET | AI | Alpha(AET/PET) | BIO7,0.45075181748592874
+subset_18_19_21_22,subset_modified_RF,4,4,"[18, 19, 21, 22]",AET | AI | PET | BIO7,0.4314429626780504
+subset_18_20_21_22,subset_modified_RF,4,4,"[18, 20, 21, 22]",AET | Alpha(AET/PET) | PET | BIO7,0.43777558075178813
+subset_19_20_21_22,subset_modified_RF,4,4,"[19, 20, 21, 22]",AI | Alpha(AET/PET) | PET | BIO7,0.4333480502679521
+subset_0_18_19_20_21,subset_modified_RF,4,5,"[0, 18, 19, 20, 21]",CECS | AET | AI | Alpha(AET/PET) | PET,0.43348706485554855
+subset_0_18_19_20_22,subset_modified_RF,4,5,"[0, 18, 19, 20, 22]",CECS | AET | AI | Alpha(AET/PET) | BIO7,0.4393243792071968
+subset_0_18_19_21_22,subset_modified_RF,4,5,"[0, 18, 19, 21, 22]",CECS | AET | AI | PET | BIO7,0.4318469641814924
+subset_0_18_20_21_22,subset_modified_RF,4,5,"[0, 18, 20, 21, 22]",CECS | AET | Alpha(AET/PET) | PET | BIO7,0.42689490465554136
+subset_0_19_20_21_22,subset_modified_RF,4,5,"[0, 19, 20, 21, 22]",CECS | AI | Alpha(AET/PET) | PET | BIO7,0.4236219871586233
+subset_18_19_20_21_22,subset_modified_RF,4,5,"[18, 19, 20, 21, 22]",AET | AI | Alpha(AET/PET) | PET | BIO7,0.4411375208186299
+subset_0_18_19_20_21_22,subset_modified_RF,4,6,"[0, 18, 19, 20, 21, 22]",CECS | AET | AI | Alpha(AET/PET) | PET | BIO7,0.43515008355560536
+original23,raw_column_comparison,4,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.4069167924901935
+modified_params23,raw_column_comparison,4,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.4062025112568697
+training_rank_top6_original_RF,raw_column_comparison,4,6,"[21, 19, 18, 20, 22, 2]",PET | AI | AET | Alpha(AET/PET) | BIO7 | SpH,0.4089386506168964
+training_rank_top7_original_RF,raw_column_comparison,4,7,"[21, 19, 18, 20, 22, 2, 8]",PET | AI | AET | Alpha(AET/PET) | BIO7 | SpH | TCF,0.4085067591215702
+subset_0,subset_modified_RF,5,1,[0],CECS,0.2664952908356837
+subset_18,subset_modified_RF,5,1,[18],AET,0.40737376090486177
+subset_19,subset_modified_RF,5,1,[19],AI,0.4289620745092645
+subset_20,subset_modified_RF,5,1,[20],Alpha(AET/PET),0.3431890061141135
+subset_21,subset_modified_RF,5,1,[21],PET,0.08903882404345154
+subset_22,subset_modified_RF,5,1,[22],BIO7,0.19404392598484121
+subset_0_18,subset_modified_RF,5,2,"[0, 18]",CECS | AET,0.4598176178893132
+subset_0_19,subset_modified_RF,5,2,"[0, 19]",CECS | AI,0.444082755979591
+subset_0_20,subset_modified_RF,5,2,"[0, 20]",CECS | Alpha(AET/PET),0.39747499821115506
+subset_0_21,subset_modified_RF,5,2,"[0, 21]",CECS | PET,0.36345578886709196
+subset_0_22,subset_modified_RF,5,2,"[0, 22]",CECS | BIO7,0.3271446967050544
+subset_18_19,subset_modified_RF,5,2,"[18, 19]",AET | AI,0.4460325053855254
+subset_18_20,subset_modified_RF,5,2,"[18, 20]",AET | Alpha(AET/PET),0.44848007610259566
+subset_18_21,subset_modified_RF,5,2,"[18, 21]",AET | PET,0.38671834931962334
+subset_18_22,subset_modified_RF,5,2,"[18, 22]",AET | BIO7,0.4118783364926598
+subset_19_20,subset_modified_RF,5,2,"[19, 20]",AI | Alpha(AET/PET),0.4397975438066263
+subset_19_21,subset_modified_RF,5,2,"[19, 21]",AI | PET,0.410611191843674
+subset_19_22,subset_modified_RF,5,2,"[19, 22]",AI | BIO7,0.42639730423516686
+subset_20_21,subset_modified_RF,5,2,"[20, 21]",Alpha(AET/PET) | PET,0.3421211718935794
+subset_20_22,subset_modified_RF,5,2,"[20, 22]",Alpha(AET/PET) | BIO7,0.4099081910546344
+subset_21_22,subset_modified_RF,5,2,"[21, 22]",PET | BIO7,0.3471332571916198
+subset_0_18_19,subset_modified_RF,5,3,"[0, 18, 19]",CECS | AET | AI,0.4637580146426553
+subset_0_18_20,subset_modified_RF,5,3,"[0, 18, 20]",CECS | AET | Alpha(AET/PET),0.4582448967613356
+subset_0_18_21,subset_modified_RF,5,3,"[0, 18, 21]",CECS | AET | PET,0.4337692495016182
+subset_0_18_22,subset_modified_RF,5,3,"[0, 18, 22]",CECS | AET | BIO7,0.43876796022707354
+subset_0_19_20,subset_modified_RF,5,3,"[0, 19, 20]",CECS | AI | Alpha(AET/PET),0.4465142712523913
+subset_0_19_21,subset_modified_RF,5,3,"[0, 19, 21]",CECS | AI | PET,0.4238432844910288
+subset_0_19_22,subset_modified_RF,5,3,"[0, 19, 22]",CECS | AI | BIO7,0.4332030632222842
+subset_0_20_21,subset_modified_RF,5,3,"[0, 20, 21]",CECS | Alpha(AET/PET) | PET,0.3961298319144092
+subset_0_20_22,subset_modified_RF,5,3,"[0, 20, 22]",CECS | Alpha(AET/PET) | BIO7,0.43049346531335564
+subset_0_21_22,subset_modified_RF,5,3,"[0, 21, 22]",CECS | PET | BIO7,0.3996238795668271
+subset_18_19_20,subset_modified_RF,5,3,"[18, 19, 20]",AET | AI | Alpha(AET/PET),0.45335046968690673
+subset_18_19_21,subset_modified_RF,5,3,"[18, 19, 21]",AET | AI | PET,0.4271242699331128
+subset_18_19_22,subset_modified_RF,5,3,"[18, 19, 22]",AET | AI | BIO7,0.443256195414896
+subset_18_20_21,subset_modified_RF,5,3,"[18, 20, 21]",AET | Alpha(AET/PET) | PET,0.4183874881502485
+subset_18_20_22,subset_modified_RF,5,3,"[18, 20, 22]",AET | Alpha(AET/PET) | BIO7,0.431137590083435
+subset_18_21_22,subset_modified_RF,5,3,"[18, 21, 22]",AET | PET | BIO7,0.4035185960756291
+subset_19_20_21,subset_modified_RF,5,3,"[19, 20, 21]",AI | Alpha(AET/PET) | PET,0.41843685835459377
+subset_19_20_22,subset_modified_RF,5,3,"[19, 20, 22]",AI | Alpha(AET/PET) | BIO7,0.4369664393528586
+subset_19_21_22,subset_modified_RF,5,3,"[19, 21, 22]",AI | PET | BIO7,0.41699485284891546
+subset_20_21_22,subset_modified_RF,5,3,"[20, 21, 22]",Alpha(AET/PET) | PET | BIO7,0.3941477273715711
+subset_0_18_19_20,subset_modified_RF,5,4,"[0, 18, 19, 20]",CECS | AET | AI | Alpha(AET/PET),0.46250249289514356
+subset_0_18_19_21,subset_modified_RF,5,4,"[0, 18, 19, 21]",CECS | AET | AI | PET,0.4471705025754351
+subset_0_18_19_22,subset_modified_RF,5,4,"[0, 18, 19, 22]",CECS | AET | AI | BIO7,0.45364808884667107
+subset_0_18_20_21,subset_modified_RF,5,4,"[0, 18, 20, 21]",CECS | AET | Alpha(AET/PET) | PET,0.4365600549644292
+subset_0_18_20_22,subset_modified_RF,5,4,"[0, 18, 20, 22]",CECS | AET | Alpha(AET/PET) | BIO7,0.45364733563464266
+subset_0_18_21_22,subset_modified_RF,5,4,"[0, 18, 21, 22]",CECS | AET | PET | BIO7,0.4343000066413356
+subset_0_19_20_21,subset_modified_RF,5,4,"[0, 19, 20, 21]",CECS | AI | Alpha(AET/PET) | PET,0.42760436159577286
+subset_0_19_20_22,subset_modified_RF,5,4,"[0, 19, 20, 22]",CECS | AI | Alpha(AET/PET) | BIO7,0.4476177701677081
+subset_0_19_21_22,subset_modified_RF,5,4,"[0, 19, 21, 22]",CECS | AI | PET | BIO7,0.4289883279340171
+subset_0_20_21_22,subset_modified_RF,5,4,"[0, 20, 21, 22]",CECS | Alpha(AET/PET) | PET | BIO7,0.4188706847131952
+subset_18_19_20_21,subset_modified_RF,5,4,"[18, 19, 20, 21]",AET | AI | Alpha(AET/PET) | PET,0.434609863263442
+subset_18_19_20_22,subset_modified_RF,5,4,"[18, 19, 20, 22]",AET | AI | Alpha(AET/PET) | BIO7,0.4498144383381447
+subset_18_19_21_22,subset_modified_RF,5,4,"[18, 19, 21, 22]",AET | AI | PET | BIO7,0.43035191591958555
+subset_18_20_21_22,subset_modified_RF,5,4,"[18, 20, 21, 22]",AET | Alpha(AET/PET) | PET | BIO7,0.4167734618537482
+subset_19_20_21_22,subset_modified_RF,5,4,"[19, 20, 21, 22]",AI | Alpha(AET/PET) | PET | BIO7,0.42242476991813527
+subset_0_18_19_20_21,subset_modified_RF,5,5,"[0, 18, 19, 20, 21]",CECS | AET | AI | Alpha(AET/PET) | PET,0.4481450569350226
+subset_0_18_19_20_22,subset_modified_RF,5,5,"[0, 18, 19, 20, 22]",CECS | AET | AI | Alpha(AET/PET) | BIO7,0.4579263140328317
+subset_0_18_19_21_22,subset_modified_RF,5,5,"[0, 18, 19, 21, 22]",CECS | AET | AI | PET | BIO7,0.443611359516645
+subset_0_18_20_21_22,subset_modified_RF,5,5,"[0, 18, 20, 21, 22]",CECS | AET | Alpha(AET/PET) | PET | BIO7,0.4380785790663646
+subset_0_19_20_21_22,subset_modified_RF,5,5,"[0, 19, 20, 21, 22]",CECS | AI | Alpha(AET/PET) | PET | BIO7,0.4312038771791671
+subset_18_19_20_21_22,subset_modified_RF,5,5,"[18, 19, 20, 21, 22]",AET | AI | Alpha(AET/PET) | PET | BIO7,0.43488138199314164
+subset_0_18_19_20_21_22,subset_modified_RF,5,6,"[0, 18, 19, 20, 21, 22]",CECS | AET | AI | Alpha(AET/PET) | PET | BIO7,0.44599772630221335
+original23,raw_column_comparison,5,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.4270836769631505
+modified_params23,raw_column_comparison,5,23,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",CECS | CECT | SpH | SOC | SCF | SSiF | SSaF | SGC | TCF | TSiF | TSaF | TGC | OAR | SNRC | SNA | TpH | TOC | ST | AET | AI | Alpha(AET/PET) | PET | BIO7,0.4544080588120385
+training_rank_top6_original_RF,raw_column_comparison,5,6,"[18, 21, 19, 22, 20, 7]",AET | PET | AI | BIO7 | Alpha(AET/PET) | SGC,0.4269494299591038
+training_rank_top7_original_RF,raw_column_comparison,5,7,"[18, 21, 19, 22, 20, 7, 12]",AET | PET | AI | BIO7 | Alpha(AET/PET) | SGC | OAR,0.4269679234525394

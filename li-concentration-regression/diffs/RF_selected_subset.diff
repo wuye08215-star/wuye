@@ -1,0 +1,9 @@
+--- RF_modified.py
++++ RF_selected_subset.py
+@@ -1 +1 @@
+-"""RF原代码基础上的小改回归版；完整过程见组会报告。
++"""RF训练CV选中变量子集的试验版；保留完整测试样本，结论见变量筛选报告。
+@@ -169,0 +170,3 @@
++    # 仅按训练内五折CV选中的固定子集；不依据测试结果挑列。
++    selected_features = ['AET', 'AI', 'Alpha(AET/PET)', 'BIO7']
++    kept = [j for j in kept if features[j] in selected_features]

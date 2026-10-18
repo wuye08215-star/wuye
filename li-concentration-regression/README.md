@@ -4,7 +4,7 @@
 
 ## 下载
 
-- [组会Word报告（20页，含本轮补充）](Li_group_meeting_report.docx)
+- [组会Word报告（23页，含变量筛选与补充实验）](Li_group_meeting_report.docx)
 - [PDF阅读版](Li_group_meeting_report.pdf)
 - [结果总表Excel](group_meeting_results.xlsx)
 - [全部代码、报告和结果ZIP](full_package.zip)
@@ -71,3 +71,19 @@ python code/RF_training_tail_sensitivity.py QSH.xlsx --output results/RF_tail_se
 ```
 
 这一脚本不替换主分析。删样本行号和全部测试预测记录在 `additional_experiments/RF_tail_sensitivity_results/`。
+
+## 追加：变量数量与组合筛选
+
+已检验原23列、训练内排名前6/7列及6个非重复信息组的全部63个非空子集，共67组RF方案、335个逐折分数。
+
+按训练CV选中AET、AI、Alpha(AET/PET)、BIO7四列，CV R²=0.4503，完整测试R²=0.5538；相同修改RF参数下6组为0.5403。训练与测试均未新增删样本。原RF参数下前6/7列分别为0.5403/0.5393。
+
+- [3页变量筛选Word](feature_selection/Feature_selection_report.docx) / [PDF](feature_selection/Feature_selection_report.pdf)
+- [变量筛选完整Excel](feature_selection/feature_selection_results.xlsx)
+- 最小改动候选代码：`code/RF_selected_subset.py`，已在原QSH实跑，图表与逐行预测在`feature_selection/RF_selected_subset_results/`。
+
+四列为简化预测候选，6组保留作对照；原始23列数据保留。该选择不证明PET及土壤因子没有物理作用，仅适用于本次RF与内部验证。
+
+```bash
+python code/RF_selected_subset.py QSH.xlsx --output results/RF_selected_subset
+```

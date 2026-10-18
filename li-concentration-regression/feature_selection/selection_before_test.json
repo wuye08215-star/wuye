@@ -1,0 +1,40 @@
+{
+  "selected_per_count": [
+    "subset_18",
+    "subset_18_20",
+    "subset_18_19_20",
+    "subset_18_19_20_22",
+    "subset_0_18_19_20_22",
+    "subset_0_18_19_20_21_22"
+  ],
+  "overall_training_CV_selected": "subset_18_19_20_22",
+  "all_evaluated": [
+    "subset_18",
+    "subset_18_20",
+    "subset_18_19_20",
+    "subset_18_19_20_22",
+    "subset_0_18_19_20_22",
+    "subset_0_18_19_20_21_22",
+    "original23",
+    "modified_params23",
+    "training_rank_top6_original_RF",
+    "training_rank_top7_original_RF"
+  ],
+  "final_raw_top6": [
+    21,
+    18,
+    19,
+    22,
+    20,
+    3
+  ],
+  "final_raw_top7": [
+    21,
+    18,
+    19,
+    22,
+    20,
+    3,
+    5
+  ]
+}

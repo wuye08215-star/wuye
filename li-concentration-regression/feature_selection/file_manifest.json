@@ -1,0 +1,118 @@
+{
+  "Feature_selection_report.docx": {
+    "bytes": 945169,
+    "sha256": "5479b21095531cf599b41916a468e220abb9c145277574e22722ac692ec6e983"
+  },
+  "Feature_selection_report.pdf": {
+    "bytes": 362984,
+    "sha256": "e088dd783cb392b901a56b85e2143ec4438bd9c5c0164194ce040b5aff75af7f"
+  },
+  "README.md": {
+    "bytes": 1083,
+    "sha256": "22c90b2111f507c848a877027e34f3b7fc35e25d7fcfd8525107acfdb882de7b"
+  },
+  "RF_selected_subset_results/RF决策树结构.png": {
+    "bytes": 492657,
+    "sha256": "925a18c54de39d00235af2a505ab06c1c0012ad0ec19c2b68b506d33918ab6f1"
+  },
+  "RF_selected_subset_results/RF变量重要性.png": {
+    "bytes": 81104,
+    "sha256": "c885302e6cb9e976548af5f394ec49730b405508d7f0354a2025c0ad36921f85"
+  },
+  "RF_selected_subset_results/RF变量重要性.xlsx": {
+    "bytes": 5639,
+    "sha256": "b76435a5e043e87d20898f8ec7b124da6075141884f49583ae7005c95029d154"
+  },
+  "RF_selected_subset_results/RF模型拟合散点图.png": {
+    "bytes": 271895,
+    "sha256": "bece441ffacb46b3e0781faef313c29eb2b8c578da9dcb5ac11c80705d3325ae"
+  },
+  "RF_selected_subset_results/RF模型评价结果.xlsx": {
+    "bytes": 5579,
+    "sha256": "a36ea07b903a2660706ecab1cf7b2fecdf725c3b0e6ed7ad364073722c0ec6bf"
+  },
+  "RF_selected_subset_results/RF测试集预测.xlsx": {
+    "bytes": 20995,
+    "sha256": "455c676f4dfbb045c628af6b83a8d71d878ea6c4b3387436190bc883326609ae"
+  },
+  "RF_selected_subset_results/RF重复字段对应表.xlsx": {
+    "bytes": 5751,
+    "sha256": "90989984ad98b0c2da557864639f651beff92052adbc4d1e35161088a8ce351e"
+  },
+  "all_fold_scores.csv": {
+    "bytes": 34425,
+    "sha256": "791cd0ebb7b30d73efbd73e2899e31e23da59620c3d85dbcee4664f4d1b10c5a"
+  },
+  "completion.json": {
+    "bytes": 81,
+    "sha256": "1f8dff1ccbda6802542bb59411fa93b39d824b05564cccf7a470dba310e03c2a"
+  },
+  "feature_count_comparison.png": {
+    "bytes": 98677,
+    "sha256": "30be0bc428a8f3157206a2daf0bea85e5f459cfc456ae848b325497ae75d3618"
+  },
+  "feature_selection_results.xlsx": {
+    "bytes": 28836,
+    "sha256": "3bddf531e657d863c7d0d72787983cf4f60b8b5f5972ec85a582a1c8ebdfcd7d"
+  },
+  "fold_ranking_audit.json": {
+    "bytes": 59259,
+    "sha256": "366fcc23727c37da59639293a9f883406c49cd700a52e1d2cf28f5e3bbccb346"
+  },
+  "frozen_data.npz": {
+    "bytes": 296178,
+    "sha256": "b42c4e68a29c7841e93a9f14c8d223a197601b01f8782cf8db2d3ada5c074180"
+  },
+  "full_training_ranking_audit.json": {
+    "bytes": 11891,
+    "sha256": "79be0e18c1391ecc2aed0222afe518e75236b45fae88f6b6f7da29353b054045"
+  },
+  "paired_4_vs_6_fold_scores.csv": {
+    "bytes": 368,
+    "sha256": "935a188f9deae6e7012f2d423511d307354482bb04657ddabc2f6ccf24e72577"
+  },
+  "protocol_before_scores.json": {
+    "bytes": 4804,
+    "sha256": "dfb33860d2f2d911f60e9b4119c3127a933ed584d0d65779e39194f62fa47b0b"
+  },
+  "render.log": {
+    "bytes": 480,
+    "sha256": "a6e683b678f4adcb38f8a70d044ac7683dc8883716a09a073a013d47047845a7"
+  },
+  "run.log": {
+    "bytes": 4408,
+    "sha256": "965e5a9d9a1bdbdbe049a408359054ffa6166c2d7aa87df72d16cd1c21b2b3a7"
+  },
+  "run_feature_selection.py": {
+    "bytes": 7406,
+    "sha256": "6634725fc00dab91bffb654b41dd54ca692e4dabce5c85f27d44af8b75e5f62a"
+  },
+  "selected_code_run.log": {
+    "bytes": 5273,
+    "sha256": "f956d3f3868409ca0883b467948bd3e8e728b09cda08bd4897edc40c8d9f54c9"
+  },
+  "selected_test_predictions.csv": {
+    "bytes": 59057,
+    "sha256": "3623f1b86824d73f0b91ee899b5f11fcdf60a06b3e5ef9bd1db7443d218710ed"
+  },
+  "selected_test_results.csv": {
+    "bytes": 2348,
+    "sha256": "e0f53f544dae2ee659d5b7f60e9984219327453964a973921ec7dad2d30131b2"
+  },
+  "selection_before_test.json": {
+    "bytes": 675,
+    "sha256": "0b95f0c79cea4ea5fa698c9718fcadfa70d6cdd4164ec4580cee41884d86b4f3"
+  },
+  "source_protocol.json": {
+    "bytes": 799,
+    "sha256": "27efd46a46ab9cb1452fef0975e2a4317df81a7a6886f4b64d0b66756a36eb7f"
+  },
+  "training_summary.csv": {
+    "bytes": 5181,
+    "sha256": "65281e63fe9e18c3863cb3f4e26a28cdceafbb88602a7b51aa52f9f5536f6d70"
+  },
+  "verification.json": {
+    "bytes": 669,
+    "sha256": "e8780abb42b8bbc26a8f6d441a59b66670898af752e93b0e789414516794958e"
+  }
+}
